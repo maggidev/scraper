@@ -45,8 +45,19 @@ def organizar_database(arquivo_origem):
         json.dump(data["dublados"], f, indent=4, ensure_ascii=False)
 
     # Salva um JSON para cada gênero (Ex: api_data/genero_horror.json)
+    # Salva um JSON para cada gênero (Ex: api_data/genero_horror.json)
     for gen, lista in data["generos"].items():
-        with open(f'{output_dir}/genero_{gen}.json', 'w', encoding='utf-8') as f:
+        # LIMPEZA DO NOME DO ARQUIVO:
+        # Substitui / por - e remove caracteres estranhos
+        nome_limpo = gen.replace("/", "-").replace("\\", "-").replace(":", "")
+        
+        # Evita criar arquivos para gêneros inúteis como "n/a"
+        if nome_limpo == "n-a" or not nome_limpo:
+            continue
+
+        caminho_arquivo = f'{output_dir}/genero_{nome_limpo}.json'
+        
+        with open(caminho_arquivo, 'w', encoding='utf-8') as f:
             json.dump(lista, f, indent=4, ensure_ascii=False)
 
     print(f"Processamento concluído! Arquivos gerados na pasta '{output_dir}'.")
