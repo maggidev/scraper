@@ -52,4 +52,4 @@ def organizar_database(arquivo_origem):
     print(f"Processamento concluído! Arquivos gerados na pasta '{output_dir}'.")
 
 # Executar
-organizar_database('lista_limpa.json')
+#organizar_database('lista_limpa.json')
