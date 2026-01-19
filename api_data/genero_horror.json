@@ -1988,7 +1988,12 @@
                 "number": "Hikaru ga Shinda Natsu - Episódio 2",
                 "url": "https://animefire.io/animes/hikaru-ga-shinda-natsu/2",
                 "thumb": "https://animefire.io/img/video/hikaru-ga-shinda-natsu/2.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768804971&ei=62FtaZzjGYmCy_sPjvOWsAw&ip=45.171.21.118&id=b4476b3f796d023b&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&cps=0&met=1768776171,&mh=xG&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1389.365&lmt=1752364623804125&mt=1768775808&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRgIhAICy9k2B1hTD5BPQKyRg1Pg0ADrPsJ5GNyxu9Lu8zOaXAiEAhoEOs27qCPlQcYKe7-SCCcY9hsT8-hPDhmcXdoNYNU4%3D&lsparams=cps,met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRgIhAI7kdsaAW-Bm2Hqb14Tlu44MFRV0FvhQTmPF9sJesDswAiEAnwOtFesDeC8MFvnXq4f7PMzLlvE0UgYOZpHHgNKzN2M%3D"
+                    }
+                ]
             },
             {
                 "number": "Hikaru ga Shinda Natsu - Episódio 3",
@@ -2620,37 +2625,67 @@
                 "number": "Jigoku Sensei Nube (2025) - Episódio 1",
                 "url": "https://animefire.io/animes/jigoku-sensei-nube-2025/1",
                 "thumb": "https://animefire.io/img/video/jigoku-sensei-nube-2025/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805412&ei=pGNtafePKc3Zut0Pg-_yuA8&ip=45.171.21.118&id=c9f04c11830224be&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776612,&mh=l7&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1400.163&lmt=1751665973021901&mt=1768776056&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgP2CwFRZY9FoeLlys6WdnoOGTDcHY44gt8ksXzZkK44MCIHTnd89vqeAz-97qrUu5HBkJMk2evOEjpcfm6LkGxIz4&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAPNhFZEhaJJmfbjo67PH41Xf45CX7ddx3zF_AkF5ZW0hAiA8aEQdEff8tl6ICcBBN4i1bEhhdfxmasaJbc3F8GI-8w%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Jigoku Sensei Nube (2025) - Episódio 2",
                 "url": "https://animefire.io/animes/jigoku-sensei-nube-2025/2",
                 "thumb": "https://animefire.io/img/video/jigoku-sensei-nube-2025/2.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805412&ei=pGNtacaAMdvbxtYPxrGTwQM&ip=45.171.21.118&id=8b2cd24cd016d84a&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776612,&mh=Wk&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1400.163&lmt=1751682646080487&mt=1768776056&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhANiQiTKQXeKU2LLf8L0_GfD-l5aapKq2flDaQ6RYSnpKAiBOIY4jMDlR_BMIs-5_DVrHO_3fyo6fjhP4FMaQSdP9EA%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgAxjl9LUACSY1h0C3XZR89_nVKrHmV71mEyYFRK8_QAECIQDpjlmDTpXsF59A2Psf6ECD6Axwu8us24UtK_lftVpF6A%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Jigoku Sensei Nube (2025) - Episódio 3",
                 "url": "https://animefire.io/animes/jigoku-sensei-nube-2025/3",
                 "thumb": "https://animefire.io/img/video/jigoku-sensei-nube-2025/3.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805413&ei=pWNtabyCD_Poy_sPvbTOwA0&ip=45.171.21.118&id=d77d51115ac4a09c&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776613,&mh=El&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1400.232&lmt=1752192672458906&mt=1768776310&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIgeaQadcN21s_mfvf8YkXLV1li3RqyolzEoMr7s2f4XQ8CIQD6q4KTlREIJJ7RIrCGOxEXZlt32rT4fu4OSs8acik02g%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRQIgNppxIFwt4elnPZVLz59NouXK3SCDyaCEuvYkYW0V6KQCIQCon5uOKG4eaPPwmuCtqiuEq3JDJxdPZhAwyraqzf9dDA%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Jigoku Sensei Nube (2025) - Episódio 4",
                 "url": "https://animefire.io/animes/jigoku-sensei-nube-2025/4",
                 "thumb": "https://animefire.io/img/video/jigoku-sensei-nube-2025/4.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805413&ei=pWNtadP8FNyBvPIPvuC76AM&ip=45.171.21.118&id=790c2f64b848c03e&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776613,&mh=SI&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1362.152&lmt=1752810372202526&mt=1768776056&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgeEQn0Cl9wlGKs-66WjKtkMS2bv6eD8EsVSg3q-cJoQUCIEPi7ECvVsUJItHKsLTjybz8PXVOj3gwyt7YLt_ZcTki&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhALaKAJvsnFnV5vgKxbui4okXPzBrm3CSirHcR_lkPJvCAiEA8m9mGiihaA0kZPmo3vT6DBqLzOUD7HeqlPp6bnB3N0k%3D"
+                    }
+                ]
             },
             {
                 "number": "Jigoku Sensei Nube (2025) - Episódio 5",
                 "url": "https://animefire.io/animes/jigoku-sensei-nube-2025/5",
                 "thumb": "https://animefire.io/img/video/jigoku-sensei-nube-2025/5.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805413&ei=pWNtaYS_Fbbhut0Pt9L78AY&ip=45.171.21.118&id=34433ba4b7e223b9&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776613,&mh=bM&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1400.116&lmt=1753646216536473&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgQ165ST8IcRcSz7gWRswUNHrPeTmKJ-tAOQr9FvSAdWICIEORipLKQ3xD49Az9MSKPd2QEMc7-K1Y9qHsBO4t3gO4&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAKmMSqei43EG6UGBtcONRUbk5qRbSWdQ0pgPrw2gDAUPAiEApQjJAPMB6GEhUU_mtecCo5XnkXHbBhKidk7_l8AZqes%3D"
+                    }
+                ]
             },
             {
                 "number": "Jigoku Sensei Nube (2025) - Episódio 6",
                 "url": "https://animefire.io/animes/jigoku-sensei-nube-2025/6",
                 "thumb": "https://animefire.io/img/video/jigoku-sensei-nube-2025/6.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805413&ei=pWNtae-bG7rGvPIPndWmgQ0&ip=45.171.21.118&id=205afbc47c604f52&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776613,&mh=WH&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1400.116&lmt=1754864802894144&mt=1768776056&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhAL8ZjYTAwXwEZH00fuT1JLyZ4nzRcc7jVnpgD0PwJqA3AiAjaLMKEmvK-BMS74xFVU1FBvg34OgN8t9RqD2OjF4tCg%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgOLmS2HGYd7lQkAfjd30vNaFElSdHiLM7f-2Ju8GZ988CIQDhy6uln07RmROcm1vU1izku5T-l-1dratyr9BTDKgRDg%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Jigoku Sensei Nube (2025) - Episódio 7",
@@ -3568,25 +3603,45 @@
                 "number": "Uzumaki (Dublado) - Episódio 1",
                 "url": "https://animefire.io/animes/uzumaki-dublado/1",
                 "thumb": "https://animefire.io/img/video/uzumaki/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809294&ei=znJtaeCMKpv13rsPk8SXoAY&ip=45.171.21.118&id=f72547bc40ee4a0e&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780494,&mh=SI&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1406.664&lmt=1730058523854501&mt=1768780126&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIhAPlR_4qb_Sr-I816sMYoGO91-8xJu2p6mS22Gt88ryIpAiAM1v0olHtlqdBcu6URilHQ-9A-_82jnbtuWdTfVjRvdQ%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAMbCeW6GsI1mnaMUdNtNTPi_YhgHHhN74VLGYwqPwx8fAiBCp5ksOBTL4AH9jb-4pFv2sKqBtylbelvnIETJ5xbDhA%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Uzumaki (Dublado) - Episódio 2",
                 "url": "https://animefire.io/animes/uzumaki-dublado/2",
                 "thumb": "https://animefire.io/img/video/uzumaki/2.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809295&ei=z3JtaaflBMWHy_sPwZvTsA8&ip=45.171.21.118&id=bc5938c9e97ca3f0&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780495,&mh=Wc&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1688.067&lmt=1730058649311192&mt=1768780126&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIgdzmctQ7Ux3dF9-9oOEitX2wPrVE533-q_YUV5qDlaI0CIQDOkfctXaP8O3E31Axjh94ABQ2f9ScyfrQkGGrjVbygLg%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRQIhAPHYdPFPgXMwrZaxmGl58dsj3I1A-0TdhGLnZXJPBT8KAiAh5jAG2lUEn8yJQIN96-p1xHNipBfA9sYu95tGlEwxiQ%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Uzumaki (Dublado) - Episódio 3",
                 "url": "https://animefire.io/animes/uzumaki-dublado/3",
                 "thumb": "https://animefire.io/img/video/uzumaki/3.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809294&ei=znJtaYTJKqbgut0P4fe1kQY&ip=45.171.21.118&id=2d5c048fd42d0e15&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780494,&mh=Th&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1781.225&lmt=1730059041162205&mt=1768780126&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIgfKT9HL5_4iXkY5dLWmn9k-HGiPkTTPnSw8OFR5w1haQCIQDo2csx6Na4oWzBzbgZ9xbZ2wpu8JZkTwV30tQ-_7pjSA%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgbo3BV_pVcB-jQAUUSyS8dPmaUC81heOaDA3-uGICKEMCIQCjTtZOM7PYwSDy5yO1jQOAHQ7iMsFQfuqv1oyGbDvplg%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Uzumaki (Dublado) - Episódio 4",
                 "url": "https://animefire.io/animes/uzumaki-dublado/4",
                 "thumb": "https://animefire.io/img/video/uzumaki/4.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809295&ei=z3JtaZP1FpPZut0PrrrkyA8&ip=45.171.21.118&id=087dd3ed79fa3662&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780495,&mh=Mn&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=2024.919&lmt=1730059398284012&mt=1768780126&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgMkYxm4SxtcpN2LqyqLdwkg4JW7lebgjWmsuoeUwDYxMCIA66de60NCwWIIgZoPwTAZA8xZAxk47iX8lpmdBJELho&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgWmHkjU4mDyHHT4YMZkc9n7tFU8sDbdjtkyoP907xlNkCICLF5QscvTAEG3PbKazOPGeF38QnuRpBOF__oTKdDpLL"
+                    }
+                ]
             }
         ]
     },

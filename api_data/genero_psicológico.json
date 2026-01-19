@@ -958,7 +958,12 @@
                 "number": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden (TV) 2nd Season - Episódio 1",
                 "url": "https://animefire.io/animes/magia-record-mahou-shoujo-madoka-magica-gaiden-tv-2nd-season/1",
                 "thumb": "https://animefire.io/img/video/magia-record-mahou-shoujo-madoka-magica-gaiden-tv-2nd-season/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806171&ei=m2ZtaZBamfDL-w_UtZyhCQ&ip=45.171.21.118&id=aab4f958a90229bb&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768777371,&mh=Xp&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1415.116&lmt=1627755786972884&mt=1768777011&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRAIgEWe5x_Z8OAojYRW4NqfN-v_eysC3kbwLqfx7KKHNBUQCIAujzUufMFQsw6vynEUJv5tRFvJz3z9TwFYOCcfKCI6R&lsparams=met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRQIhAK9ktpszgSCfRIZWDFP9rYfrCmhelnNaDDWssFT9ApgMAiBNnlBJ367QyA3P7lF87tVR93XvFC1clEmhnAQyZO2gNw%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden (TV) 2nd Season - Episódio 2",

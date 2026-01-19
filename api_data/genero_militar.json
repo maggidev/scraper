@@ -1130,7 +1130,12 @@
                 "number": "Youjo Senki: Sabaku no Pasta Daisakusen - Episódio 1",
                 "url": "https://animefire.io/animes/youjo-senki-sabaku-no-pasta-daisakusen/1",
                 "thumb": "https://animefire.io/img/video/youjo-senki-sabaku-no-pasta-daisakusen/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809564&ei=3HNtabbJLZety_sPnoGTwAo&ip=45.171.21.118&id=43c6566223f6484d&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780764,&mh=YC&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1008.210&lmt=1624123285632664&mt=1768780126&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRgIhAK2buCMboFWtsxQXC5qCAphPx_pSaFzPMuupePqCImq6AiEAl9UltRF_HaJpGEqOl2LqvvNXN3RFVwMmohRm1TJTxrQ%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgVXpcf7KmFjM3Em0_ee3bTPudOC9F2W7LXTsUFmz3Bs0CIQCkjdY1zkXpBwQ5KxdUSDkIIceE9_7Sxx7dE52ftKCwKg%3D%3D"
+                    }
+                ]
             }
         ]
     }

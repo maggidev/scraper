@@ -537,7 +537,12 @@
                 "number": "Getter Robo Arc - Episódio 1",
                 "url": "https://animefire.io/animes/getter-robo-arc/1",
                 "thumb": "https://animefire.io/img/video/getter-robo-arc/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768804724&ei=9GBtaZxuj9i63Q_YypnIBQ&ip=45.171.21.118&id=493f62827b94fffa&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768775924,&mh=aH&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1466.734&lmt=1698643851325964&mt=1768775565&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgSQpR5wItJurOgh58okB3_UZIzpj0lRKPKXrnetv0Ly0CIGbYTwzzRkYzo898-VKZQLo41AKGdaggs3CuOt3Bhjqf&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgXtGmhsEIxODHBCsN9nghSJ0TWQZ7kzZEqL3krzoksmoCIDS9FJkSB6eQk4JDUegse2QW-NoL8htahjwK25mkEEqk"
+                    }
+                ]
             },
             {
                 "number": "Getter Robo Arc - Episódio 2",

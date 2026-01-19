@@ -3264,13 +3264,23 @@
                 "number": "Darwin Jihen (Dublado) - Episódio 1",
                 "url": "https://animefire.io/animes/darwin-jihen-dublado/1",
                 "thumb": "https://animefire.io/img/video/darwin-jihen/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768803601&ei=kVxtaa2kMpPZut0PrrrkyA8&ip=45.171.21.118&id=332df989d3422cc4&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768774801,&mh=5K&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1462.160&lmt=1768226238721512&mt=1768774366&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIgOQ-lXxzJJHAhNTwyAYVlDoPQEtsy-lQwhthjwhPaLSICIQDWQMUI4JWVj_noG_GLNicd2Ns0Jcsdesl2tiDpCKpT5Q%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAJAtgwR0cjI6sKaP3fPfxfdsWMP72NPbovW-k07YkA1pAiB9IInqepNW5tPhpJpVqDn4doMPApqlbXmxwGeO5yJWew%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Darwin Jihen (Dublado) - Episódio 2",
                 "url": "https://animefire.io/animes/darwin-jihen-dublado/2",
                 "thumb": "https://animefire.io/img/video/darwin-jihen/2.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768803601&ei=kVxtaavKMe7Yut0P8vS_YQ&ip=45.171.21.118&id=d74c50dfcb250c88&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768774801,&mh=ON&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1461.138&lmt=1768399097425625&mt=1768774366&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRgIhAMGmwsow1yQCBt2ETx3vpXWlQLzicLfUtcV1o7_OvbRjAiEA8SNDb2c5971IdN8IrHLnXjmNKoirQgOAmRoswyiT9DA%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAOrAc2Ew6Kr3vSFywoW5qBMIUiprYhBGloGyL-WSnICwAiBn51BaAXveBWqxv96JzNEW3m5_69C19RK1Sbw2JqAFeA%3D%3D"
+                    }
+                ]
             }
         ]
     },
@@ -6435,49 +6445,89 @@
                 "number": "Dr. Stone: Science Future (Dublado) - Episódio 1",
                 "url": "https://animefire.io/animes/dr-stone-science-future-dublado/1",
                 "thumb": "https://animefire.io/img/video/dr-stone-science-future/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768803733&ei=FV1tabawL77Iy_sP4vu9iAc&ip=45.171.21.118&id=afe4005d6a850530&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768774933,&mh=lG&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1440.310&lmt=1736775729639999&mt=1768774622&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRgIhANtfi9cZ2dOT8v_5NkUB_jssYPdVD_Gy_FRiZP5ctCvmAiEA2OQxBclyDJkSfp76CluFe45oU0BdA_SKURKznzDDHw0%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgLqrntKlBA6Cd9MRTOrriPRCYvvU_ClfjJrGTNCASC0gCIBm50w4hnnt7jtzqZcXTE3VhliK-4UpLqH2uMZbGZVt5"
+                    }
+                ]
             },
             {
                 "number": "Dr. Stone: Science Future (Dublado) - Episódio 2",
                 "url": "https://animefire.io/animes/dr-stone-science-future-dublado/2",
                 "thumb": "https://animefire.io/img/video/dr-stone-science-future/2.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768803733&ei=FV1taY_ZC_WEy_sPwaLSyQc&ip=45.171.21.118&id=049a4924c9555037&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768774933,&mh=W6&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1440.310&lmt=1737381514785257&mt=1768774610&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgKWJPTRWMdhdMHS5Hf80HqAZd0s9gAFtFewAO8dFVzxQCIDD2bJoynDTFR1T60RDWmDa6ahHJu5I-DOp4sIWo4WvY&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgfi_zMUpgBFPB1nYDaXawMkc7J1aqps8htcfYvtUtVDoCIQCFgn0-MSeB5mn8gJMl2sLtFS7dczrxmdFVxSyloCuhUQ%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Dr. Stone: Science Future (Dublado) - Episódio 3",
                 "url": "https://animefire.io/animes/dr-stone-science-future-dublado/3",
                 "thumb": "https://animefire.io/img/video/dr-stone-science-future/3.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768803734&ei=Fl1taa6zBJeDy_sPyMe_6Qo&ip=45.171.21.118&id=ed02327e3eea6cd9&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768774934,&mh=cl&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1440.171&lmt=1737981922744353&mt=1768774366&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRgIhAMRhptEEdD603raVGd6pRSyAMqelr97euTXu9Q-Xyz_lAiEA7I3jqQrwN0iVPFt3DK6pb9LnJVu-Hp73tWxEfgD3LwM%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRQIgHORhw1ci-IPMaGSCHhKokxFbvJpY5Eze7JgU5oX83qUCIQCqOY8inAjoTIGgpdlXfWdBg61XK5jQyDoD1YsDBAOlkg%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Dr. Stone: Science Future (Dublado) - Episódio 4",
                 "url": "https://animefire.io/animes/dr-stone-science-future-dublado/4",
                 "thumb": "https://animefire.io/img/video/dr-stone-science-future/4.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768803733&ei=FV1taZqlHJrWut0PzKOl8A8&ip=45.171.21.118&id=a764948ec1910d99&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768774933,&mh=qN&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1440.264&lmt=1738592628116098&mt=1768774366&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhALRzIjkUhuwk-TiMNiD8kTQAtjn4tiSCGY8F_J62Tx97AiBcotgg45JL1HOxaZ6tKeyfV3WbP3fOGx7eaje7zBNvMA%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhALU9P3TTNQQkzOiR-moUTIQpA1TGemV6z8tG3LvswvcfAiEApkaXeOA-kunqHwmgZK5zmGHSD31pOEDQxxLnGevjPIw%3D"
+                    }
+                ]
             },
             {
                 "number": "Dr. Stone: Science Future (Dublado) - Episódio 5",
                 "url": "https://animefire.io/animes/dr-stone-science-future-dublado/5",
                 "thumb": "https://animefire.io/img/video/dr-stone-science-future/5.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768803733&ei=FV1taaOQIJ2Dy_sP2rDwyQw&ip=45.171.21.118&id=ad3250d3f591e006&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768774933,&mh=c8&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1440.380&lmt=1739194580593331&mt=1768774366&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgNF-e1MmaEG3MHo8qY7ggjsyF4LSBBc3lqDXYIOFflYECID6Mzbm-FtaWVu2feDEGOflf_3FOwOJgqsS1nGqPiT1o&lsparams=met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRQIgKMpwkPOeu06_nGiS5dZb7IzRhNFvhEPOGUnpAm_-oN8CIQD_kHNOVx4bjM3Vg9opE9m8vLQTRBQCXfWgswFfc8bagA%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Dr. Stone: Science Future (Dublado) - Episódio 6",
                 "url": "https://animefire.io/animes/dr-stone-science-future-dublado/6",
                 "thumb": "https://animefire.io/img/video/dr-stone-science-future/6.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768803734&ei=Fl1taf2xBLbhut0Pt9L78AY&ip=45.171.21.118&id=48ac73e1511818f9&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768774934,&mh=Vh&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1440.310&lmt=1739801640593587&mt=1768774366&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIgEdISBsFq3qhffa92TUhRbFi3zfeqEmCbblt6DojSmsMCIQCO9UmXk41-adaH1Ek5ZphN6gvJ47AFFTBER88nvJOVew%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRAIgd1cjhVaBKE8uoxDm8cJw2tVP9bIV7RfRxPAq7cI7QVUCIE-PuaqeOX6CAkil-GQCkTDqSc-QPbw9PGcerlRCMZ40"
+                    }
+                ]
             },
             {
                 "number": "Dr. Stone: Science Future (Dublado) - Episódio 7",
                 "url": "https://animefire.io/animes/dr-stone-science-future-dublado/7",
                 "thumb": "https://animefire.io/img/video/dr-stone-science-future/7.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768803734&ei=Fl1tafDfKIPaut0P8bfOsAU&ip=45.171.21.118&id=483637d392bc5595&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768774934,&mh=lR&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1440.380&lmt=1740406980633884&mt=1768774610&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgR-9A3CPNhKZpfYr6Tefi3_wZu4LOkpg05GO1itTQxUUCIDP9HZ0beoW4X-H0WtuHQb5qH5lg5NN29As99sjGG_Ko&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgatxAi45eR1QFZKH94Xhhz4SewVftkDlsI45tVCeFhUkCIQCwMUA10BjN8PdrHlO3nwreXjfF4MRnTdwXPYsf0WhTGg%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Dr. Stone: Science Future (Dublado) - Episódio 8",
                 "url": "https://animefire.io/animes/dr-stone-science-future-dublado/8",
                 "thumb": "https://animefire.io/img/video/dr-stone-science-future/8.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768803735&ei=F11tabSEJ-COvPIPvv-1qAk&ip=45.171.21.118&id=7026e7d33cbd6494&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768774935,&mh=iG&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1440.217&lmt=1741011241205581&mt=1768774366&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIgKmf-5ub90lCWPs80aP4zO5DxhFbKZbQtJNkf50MgXVACIQCbxD5t7hTFiO8Nk_6xkLagqAE5p2oj-0CeDIejFxwsCw%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgKBbPCrBKSWBG3J7VZqksx-9rpI_k4lq27VW9rcZalXMCICRymfyRvYs4f0H9AUGjX2ROIO9DNEIQ6Tk9BiHHp5OX"
+                    }
+                ]
             }
         ]
     },
@@ -7866,31 +7916,56 @@
                 "number": "Enen no Shouboutai: San no Shou (Dublado) - Episódio 1",
                 "url": "https://animefire.io/animes/enen-no-shouboutai-san-no-shou-dublado/1",
                 "thumb": "https://animefire.io/img/video/enen-no-shouboutai-san-no-shou/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768804462&ei=7l9taey7Mtusy_sP7Y714Qc&ip=45.171.21.118&id=feee7cafcf3f6224&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768775662,&mh=D6&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1467.361&lmt=1745885521454438&mt=1768775326&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIhAMBFs8Rdl9JLFzYdFqKGkzIeRKxAwvOBqmEun8eA4_VGAiAiA_V25YibYdUOr8wwVig_2YXwtKl70wv_7XxU6ALD6w%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgKBzZ_7OlHtND6CCu9UbKHB0Fy8OoJKyYSvkRvwT9lY4CIE3F1b3DEMj_6LdB7odFb5RRaZCZLsLppFTjO_56J6tv"
+                    }
+                ]
             },
             {
                 "number": "Enen no Shouboutai: San no Shou (Dublado) - Episódio 2",
                 "url": "https://animefire.io/animes/enen-no-shouboutai-san-no-shou-dublado/2",
                 "thumb": "https://animefire.io/img/video/enen-no-shouboutai-san-no-shou/2.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768804462&ei=7l9taba7Mpqyy_sPxuuLoQ4&ip=45.171.21.118&id=eb4c7efd3cc978c7&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768775662,&mh=R6&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1467.361&lmt=1746447345556163&mt=1768775354&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIgZ2B1n2w98P3GXgElVCFLEZIyY3E5K9iUjHolI8QcCkQCIQDk-rL_X4mZGdSAK9SwYCZwNNHNkHN4Pw07DVI4Nt9RMg%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAM55lXVzcWH3AA9bNR22_zAvdN11xx85PLWK6XU5ppR6AiA59qf89nSweBv1ml1MbF3MZy4idK4x7PQWPMUpd6vAhw%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Enen no Shouboutai: San no Shou (Dublado) - Episódio 3",
                 "url": "https://animefire.io/animes/enen-no-shouboutai-san-no-shou-dublado/3",
                 "thumb": "https://animefire.io/img/video/enen-no-shouboutai-san-no-shou/3.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768804462&ei=7l9taY-BGariut0Pz-7XwQ4&ip=45.171.21.118&id=1962f83b35aafbd4&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768775662,&mh=LJ&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1347.198&lmt=1747062169003831&mt=1768775326&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhANlpnHWcv2ShSjuhpnbOIpp-z-waXDdL4SyE_JxmTNeNAiAPRGuFO5PBPRsZB9cwhqtMtWi6QLdnnmYpccGaLFv1WA%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRgIhALEq-T_0a7K2ydivv-3myIQP6PzSjrXuhKk9S8HfLdIZAiEAwReJssDrdb--xz7lJN8W5hIuZ8f2lj4Mh6NUpyBnuS4%3D"
+                    }
+                ]
             },
             {
                 "number": "Enen no Shouboutai: San no Shou (Dublado) - Episódio 4",
                 "url": "https://animefire.io/animes/enen-no-shouboutai-san-no-shou-dublado/4",
                 "thumb": "https://animefire.io/img/video/enen-no-shouboutai-san-no-shou/4.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768804462&ei=7l9tadnAMtrwy_sPoIyH6AI&ip=45.171.21.118&id=0becca2c29696d48&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768775662,&mh=lv&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1339.303&lmt=1747503009103518&mt=1768775326&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIhAM1PZ3vYwyrQ3RMxYNWQJyXWo-SABLZir3z2kD2m4AKwAiAoga61nXXlsWFmQY7JM3LKclZtif02rab6qg43GRfPSg%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAOHYukZPDwxXfeRhvQN8hYJDNbBIVdOVAKYq0_F8hGbbAiEAixXrMg5E7WMcM-QR64YzZ0tWwUC0vv_NoGb1hBWN01Y%3D"
+                    }
+                ]
             },
             {
                 "number": "Enen no Shouboutai: San no Shou (Dublado) - Episódio 5",
                 "url": "https://animefire.io/animes/enen-no-shouboutai-san-no-shou-dublado/5",
                 "thumb": "https://animefire.io/img/video/enen-no-shouboutai-san-no-shou/5.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768804462&ei=7l9taeDpOKLpy_sPtZrwkAQ&ip=45.171.21.118&id=ac6c7e1521a5f94c&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768775662,&mh=1n&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1250.185&lmt=1748109239568012&mt=1768775326&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRgIhAM81a38QW1Du2JWJMDe2nb0aWDdJnZb_BZ84CdFFwPelAiEA9xCcsf-1FvXvGUwwvTFrLTqqdfkRXUL1-pE9G7F3aU4%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAPt4WvCxV-N4vGUbyTJ1wbY78u5WtplUuR4Ht5nsDCb0AiEAtD-ZuW8rZ8zcWR_RnQ-vLKMvywSnwKtzgNFVN_S5lU0%3D"
+                    }
+                ]
             }
         ]
     },
@@ -8369,7 +8444,12 @@
                 "number": "Getter Robo Arc - Episódio 1",
                 "url": "https://animefire.io/animes/getter-robo-arc/1",
                 "thumb": "https://animefire.io/img/video/getter-robo-arc/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768804724&ei=9GBtaZxuj9i63Q_YypnIBQ&ip=45.171.21.118&id=493f62827b94fffa&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768775924,&mh=aH&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1466.734&lmt=1698643851325964&mt=1768775565&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgSQpR5wItJurOgh58okB3_UZIzpj0lRKPKXrnetv0Ly0CIGbYTwzzRkYzo898-VKZQLo41AKGdaggs3CuOt3Bhjqf&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgXtGmhsEIxODHBCsN9nghSJ0TWQZ7kzZEqL3krzoksmoCIDS9FJkSB6eQk4JDUegse2QW-NoL8htahjwK25mkEEqk"
+                    }
+                ]
             },
             {
                 "number": "Getter Robo Arc - Episódio 2",
@@ -10281,67 +10361,122 @@
                 "number": "Kaijuu 8-gou 2nd Season (Dublado) - Episódio 1",
                 "url": "https://animefire.io/animes/kaijuu-8-gou-2nd-season-dublado/1",
                 "thumb": "https://animefire.io/img/video/kaijuu-8-gou-2nd-season/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805537&ei=IWRtad64MKz0y_sP9q-X4Qk&ip=45.171.21.118&id=f010da4dc5e4ff62&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776737,&mh=JR&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1420.202&lmt=1753107201460289&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRAIgYlQC7NFhymKoNrs7QLR7uX4xDWVQR-0hyJjZ4OeBkiMCIBjkfVfDpjVcBbW43_Xyq60ZwtO0PphAC1fxvr3qpfrA&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAME4bndJ4hrj6FkG5-PSmGg_xMjmLMYLrwqti5G9EEAnAiEAp5tXLMWYhb2RXt3kCmHgnvX5z2KFpgJlln4LZft-iDM%3D"
+                    }
+                ]
             },
             {
                 "number": "Kaijuu 8-gou 2nd Season (Dublado) - Episódio 2",
                 "url": "https://animefire.io/animes/kaijuu-8-gou-2nd-season-dublado/2",
                 "thumb": "https://animefire.io/img/video/kaijuu-8-gou-2nd-season/2.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805537&ei=IWRtade_MMjXut0P_byaqQQ&ip=45.171.21.118&id=3d7a4f0785e73daf&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776737,&mh=HA&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1420.132&lmt=1753595657209195&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRgIhAPvbvcYCuIVVba0amdlkSZvvgY7FGI3DDMDSR85lr_jZAiEA4ij5s8Z-z_3osSk-4w2iuHR1p3wfv4sZXeRORErDOkM%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAPXfO7c7FqBNglLvwleUfTni8FNzbKWfU9BXtr_C1J_RAiEAzUVU2-4KrRawSj-ELQraJORpoK4GpKn3swTWcJ49LBY%3D"
+                    }
+                ]
             },
             {
                 "number": "Kaijuu 8-gou 2nd Season (Dublado) - Episódio 3",
                 "url": "https://animefire.io/animes/kaijuu-8-gou-2nd-season-dublado/3",
                 "thumb": "https://animefire.io/img/video/kaijuu-8-gou-2nd-season/3.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805538&ei=ImRtabGRDvTgut0Pg_y5wAc&ip=45.171.21.118&id=838acb317ff727c0&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776738,&mh=2M&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1420.202&lmt=1754184405728643&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIgNtZwQm8TnN2IE5t4_y-OWSSlAcKrKn6Vor_n8kSixTkCIQDXpnyoUgpQSeAc6_yCweH6sywgubDFkv2yNA3QhG5Qag%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAI9czhukQl-KF3YlTI7Fnl0FQUMniwV6oe_N9fGjiB1MAiBc0XfQ3i4Mstt-DC4UxurYoerb8m1-q0TUIXie1TXS0Q%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Kaijuu 8-gou 2nd Season (Dublado) - Episódio 4",
                 "url": "https://animefire.io/animes/kaijuu-8-gou-2nd-season-dublado/4",
                 "thumb": "https://animefire.io/img/video/kaijuu-8-gou-2nd-season/4.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805537&ei=IWRtabGUKpWty_sP-PbM2AE&ip=45.171.21.118&id=1e95d5b17c4b29c5&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776737,&mh=hb&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1420.155&lmt=1754914120153173&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRAIgDkxWy66Y-tmJg2K3RCPIa1EbXYQS9XGqJU0KMaLjcGkCICAnNOZnkx5a6FG50E8iXnAR1dYoAb22wljnEuOkkwDm&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAOw-XL8VP_iYBiPsJuq65SCXbxihRgfLxZ9W4SZ0JR_7AiA0-vhaOFrjwa2K3LilfyoGx_8KPGdIlr1lwf3kWhLZIw%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Kaijuu 8-gou 2nd Season (Dublado) - Episódio 5",
                 "url": "https://animefire.io/animes/kaijuu-8-gou-2nd-season-dublado/5",
                 "thumb": "https://animefire.io/img/video/kaijuu-8-gou-2nd-season/5.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805537&ei=IWRtaZmlHMSAy_sP-4-0sQc&ip=45.171.21.118&id=7060c17b2624e728&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776737,&mh=Rq&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1420.225&lmt=1755533487253444&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIhANfWVDaYD-ppo5GlLkETRMusti2P6DuHOw5KfGjZYuOKAiA-DX9kpo74hxd3OjO0iywgQp-hrIxRuBkUMGKjMgJGxg%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgQK5YragVas6t8pbQlRcutQz5QPst31lnR5o3Bm5yDvICIAzEks2co3sWU1QRPlzLiSeyAi6gRzG8io0DsLubBUci"
+                    }
+                ]
             },
             {
                 "number": "Kaijuu 8-gou 2nd Season (Dublado) - Episódio 6",
                 "url": "https://animefire.io/animes/kaijuu-8-gou-2nd-season-dublado/6",
                 "thumb": "https://animefire.io/img/video/kaijuu-8-gou-2nd-season/6.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805538&ei=ImRtad3hA4nWut0PuMeR0Q4&ip=45.171.21.118&id=fd79a19e8a834576&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776738,&mh=DR&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1420.202&lmt=1755974153154449&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIge_K_i1klPLE2cl0N7micP1UY8oIB4zbh-U_o_Ac_feICIHajSbu9QO5_tL18CpOtJC4hDVb4-BlT4Hij89H7u2dG&lsparams=met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRQIgWbZy2SmkiJ3VBYos7VgDfQsc1ydAAiDyyinqsBgBAZ4CIQC7JFfvUwzlF8_75qpyetl9HRcY3-L_8rp5ZhtNKne5ag%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Kaijuu 8-gou 2nd Season (Dublado) - Episódio 7",
                 "url": "https://animefire.io/animes/kaijuu-8-gou-2nd-season-dublado/7",
                 "thumb": "https://animefire.io/img/video/kaijuu-8-gou-2nd-season/7.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805538&ei=ImRtabL1EIzLy_sPxdKD-Qc&ip=45.171.21.118&id=c9ebd5cabd69aedf&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776738,&mh=9r&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1384.513&lmt=1756577800735464&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIgVJ704SJ-Qw760xyMQyuXNC3OHyfBISl7fVv-tkfs7t8CIQCOHHxys7ozHujB8U5-tRom_DJDOkemTgncceRvrkAxHQ%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAKR04kvy_CWAwYqyOf0K5zFP9mIALWxARkmkidUKIBUrAiEArsAyKTLUhIhDfKEb7mDr9Gxd5-vxkGUu3N14K1JuoRk%3D"
+                    }
+                ]
             },
             {
                 "number": "Kaijuu 8-gou 2nd Season (Dublado) - Episódio 8",
                 "url": "https://animefire.io/animes/kaijuu-8-gou-2nd-season-dublado/8",
                 "thumb": "https://animefire.io/img/video/kaijuu-8-gou-2nd-season/8.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805537&ei=IWRtaYizKtyBvPIPvuC76AM&ip=45.171.21.118&id=6958b9b9c44654eb&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776737,&mh=_9&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1420.155&lmt=1757337671164451&mt=1768776310&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIgRgrQF2XODAL99N4QXSe2nlx283YUYUS5qd_pSE6SPygCIQDhw91cQnC9fqzb0X5pyXyk1IYhvSOLqDifl5McFACSfg%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgXjdN1VGUVN17qvfHPO-wYTBHnyd9H3A9ZAxh4b3IKBICIQDx7gM_SE_z80NV3unLuC_v-8RGtlloSjVJSFy-XX2jkA%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Kaijuu 8-gou 2nd Season (Dublado) - Episódio 9",
                 "url": "https://animefire.io/animes/kaijuu-8-gou-2nd-season-dublado/9",
                 "thumb": "https://animefire.io/img/video/kaijuu-8-gou-2nd-season/9.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805537&ei=IWRtabqWKu_hut0PkdHssQ4&ip=45.171.21.118&id=2d53ccdfed525fcc&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776737,&mh=KQ&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1420.202&lmt=1757788922360791&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhANzwBeZfnFyiaCox9d933h-M9yuCGVtzuR_qw4K9h3vhAiBeDfEu8Z02tvwt9O6qmMMq2-2mmmio8TJbAf2GOcAufA%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgToWX5Ya-iOnCPcFSoRvYTvQKEiN8G7AvifJai28G6kACIEaFvlxjyzHc_RZZM9_xQbdDSgLHgzKkZmF-eI1kQRIf"
+                    }
+                ]
             },
             {
                 "number": "Kaijuu 8-gou 2nd Season (Dublado) - Episódio 10",
                 "url": "https://animefire.io/animes/kaijuu-8-gou-2nd-season-dublado/10",
                 "thumb": "https://animefire.io/img/video/kaijuu-8-gou-2nd-season/10.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805537&ei=IWRtaZbOOYbHy_sPiqrj8Q4&ip=45.171.21.118&id=cc8b021ad524358e&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776737,&mh=mT&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1420.202&lmt=1758400648760483&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRAIgaibwgzGMsu9RuvApb1dDIDrqdgrV63mTgJvRDRdALz8CIC2A4iQU71GAOqysl0HtBYrxZll1-mMgeLURYMGDTofr&lsparams=met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRgIhAK6qNdZvvk42hoen24wbe0chiDmYVd9OW8KfJQc_oabrAiEAxNALWYXJCVhyevrrA7PAZPbRftBZCK2EC-aFcT4H4qU%3D"
+                    }
+                ]
             },
             {
                 "number": "Kaijuu 8-gou 2nd Season (Dublado) - Episódio 11",
                 "url": "https://animefire.io/animes/kaijuu-8-gou-2nd-season-dublado/11",
                 "thumb": "https://animefire.io/img/video/kaijuu-8-gou-2nd-season/11.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805538&ei=ImRtab7HNariut0P_dHBwAU&ip=45.171.21.118&id=f4934d5be655ce5b&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776738,&mh=fk&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1361.594&lmt=1758400132503309&mt=1768776310&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhAPbUhmuNJli0kK8UfOldEwJtOmn5Nttw3ODsTzGSNX1qAiAS8OPuDRSocgooCWhb5zDKgOUB50q2JLLsjNfhrTjDTg%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAOE331OSl3_TZV9vYXBBC7yLJHkdHKBDmXHoX68Ns0ogAiEA9tx2rAlE4ihTq7PLk-KL1K7LSq-w1rkDSKPdtWKFbfE%3D"
+                    }
+                ]
             }
         ]
     },
@@ -10769,31 +10904,56 @@
                 "number": "Kakushite! Makina-san!! - Episódio 1",
                 "url": "https://animefire.io/animes/kakushite-makina-san/1",
                 "thumb": "https://animefire.io/img/video/kakushite-makina-san/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805559&ei=N2RtaaPQOqbaut0P1KK0uQM&ip=45.171.21.118&id=47a41c16933285a5&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776759,&mh=xP&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=732.125&lmt=1743994282784476&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRgIhAJMYkD6beTgfX06uLDvlcr31zCWz_bpY5UmvmB7cSLnvAiEAko2J_HXiW23ssR8t2pdvr5X7_6clWPUR2P9LR3IBzJo%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgERNMCW0_iLn0OFm68ow6WIfBTvdJeO6hN9uOBOPtvN0CIQDneWm1sMncK7c-I5AjZ7LGFCyR8Kl35RRzzKiEENoyWw%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Kakushite! Makina-san!! - Episódio 2",
                 "url": "https://animefire.io/animes/kakushite-makina-san/2",
                 "thumb": "https://animefire.io/img/video/kakushite-makina-san/2.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805561&ei=OWRtaZChBI7aut0PqZqn-QI&ip=45.171.21.118&id=e31bee8c8a7fcb57&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776761,&mh=xt&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=732.125&lmt=1744584510689775&mt=1768776532&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhAO5VOiLSitKiA1GZg9KBBozL2TiobuD0fLHYJ7V3v0d1AiBakWhFD7Zz51o4LM5rfBM4LzF2emqw8g6TY54RwHVlvQ%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAOH6xDMZg_MsRI6xfh_rmH52SfBd0KZ67tW6cycUdmnNAiEArUBQrathWbtTCwqZ-94VLv51AcLbFtZhxhRf5n8I3V0%3D"
+                    }
+                ]
             },
             {
                 "number": "Kakushite! Makina-san!! - Episódio 3",
                 "url": "https://animefire.io/animes/kakushite-makina-san/3",
                 "thumb": "https://animefire.io/img/video/kakushite-makina-san/3.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805561&ei=OWRtadDCKOmty_sP3fGx4QM&ip=45.171.21.118&id=e901770ee6c3072a&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776761,&mh=6z&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=732.078&lmt=1745262471063703&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgWsLvWMuFD66OxAiffv8ap3WhIQjRQwH5p8tW9MRT8Q4CID_jUt04-Opnfh-Guw6bHqR-WbuYJ7GUEKkrsL_cDDh6&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgFiHstTJjmVlqlDStBk-4uYqh8fHJzN18IhNT43_ZyQsCIQCPjtrM2ck6cyDrDR6jHkckADZFme-7MnisbMeKs4Prvw%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Kakushite! Makina-san!! - Episódio 4",
                 "url": "https://animefire.io/animes/kakushite-makina-san/4",
                 "thumb": "https://animefire.io/img/video/kakushite-makina-san/4.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805561&ei=OWRtabWhLrXjut0P6P3ssA0&ip=45.171.21.118&id=a27be6fce67a6931&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776761,&mh=6M&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=732.310&lmt=1745797007614391&mt=1768776287&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhAKcK1eSlVuew6Zzi0Eve3GnJ_Sg9tw_R-FIcu5AEQbA6AiBh_WEP4c-Q4iT2mXWQZ5Li9GRB1iUtKrtZU1cIF-3eXA%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAKmDTbEe-KQ9e3s-slUCSsYWeTJc_WGiHhIdwHV_UNEzAiBzY2lCiagcvc03uO-QcCqqEDUu9_lf9ix2of27b_obAQ%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Kakushite! Makina-san!! - Episódio 5",
                 "url": "https://animefire.io/animes/kakushite-makina-san/5",
                 "thumb": "https://animefire.io/img/video/kakushite-makina-san/5.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768805561&ei=OWRtaYWYKq6ay_sP4ZufaQ&ip=45.171.21.118&id=b9e179bf49062e2e&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768776761,&mh=v1&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=715.151&lmt=1746779004250689&mt=1768776532&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIhAPjS6zhbcASWBweycYIyL60yIVbuZwbzuE8rdVxU2VieAiA4AEk_yD_IQ4o1rLKd10VZAeZzYQ14a2FsMKvCOUY17A%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAPLQnXjFiXHO6IacotU0JlyKCL4sjReUZHgMtnzhaHDeAiEAt08HD0cWi-Zj7lHa6DAt_31dm3eyXqeNVGwVOfNGMjc%3D"
+                    }
+                ]
             }
         ]
     },
@@ -12457,67 +12617,122 @@
                 "number": "Lazarus (Dublado) - Episódio 1",
                 "url": "https://animefire.io/animes/lazarus-dublado/1",
                 "thumb": "https://animefire.io/img/video/lazarus/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806039&ei=F2ZtaZDINcuGvPIP9KiT-A8&ip=45.171.21.118&id=06c3195049c5de93&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768777239,&mh=kC&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1452.501&lmt=1743953792220184&mt=1768777011&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIgDD_vb2fbC2uE8Fbf4ngeTgnRz7ndMFcXDh2FM3NtoYACIQDMvMYnPd95Zlo_KEyNHXNN5tGEUFd5iSFFQDOXDm7FGA%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAO4WeykKuRApRzaTdUMf3hO6m6qRJVvF1A_8Sh4QYlp6AiEA4yv5YSHq7ZWSrnpTxS5KCV6iNK3ftmq406ib2Vy4J7Y%3D"
+                    }
+                ]
             },
             {
                 "number": "Lazarus (Dublado) - Episódio 2",
                 "url": "https://animefire.io/animes/lazarus-dublado/2",
                 "thumb": "https://animefire.io/img/video/lazarus/2.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806039&ei=F2ZtaeqXNevWut0Px_SZ6AU&ip=45.171.21.118&id=504a237c10c2d6c7&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768777239,&mh=g4&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1452.501&lmt=1744565882673927&mt=1768776798&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRAIgPH1A7oaFEF1v9WeqGI679_1vMo_1FEDQWfVlBrzIAH4CIBfpbJoSZ94lfa1HVCJAvT-vEIih01Jmsqlm__HDvsua&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAPEhGFd3aWiLwysPA6B1GnbQgHASrtRRqpR8nj5wUtoFAiEA6if63PygGjJavg8MoXbUZctDv_tlyOCl0wBKKAOUWHo%3D"
+                    }
+                ]
             },
             {
                 "number": "Lazarus (Dublado) - Episódio 3",
                 "url": "https://animefire.io/animes/lazarus-dublado/3",
                 "thumb": "https://animefire.io/img/video/lazarus/3.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806039&ei=F2ZtadfnN9C1y_sPhKa8wAI&ip=45.171.21.118&id=763758ed04392753&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768777239,&mh=jx&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1452.477&lmt=1745161670924258&mt=1768776771&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRAIgO3iQAgQtDBY5QJTJPVSEqbezWmV-M_MvVD6qrWya0IwCIDZGLwmCA_DdnF41jiSHTE5093nKk_n2c9UXgdPaQnM0&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgQTVm_Xdc6R0ae3Ln09HWTryq7OeCn47_yWwcEuboeVQCIQDhTDADEosZa3LSMnHMp-NCewitrk-lvKbqKjACC_wuaw%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Lazarus (Dublado) - Episódio 4",
                 "url": "https://animefire.io/animes/lazarus-dublado/4",
                 "thumb": "https://animefire.io/img/video/lazarus/4.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806039&ei=F2ZtacKYNfnaut0P2vTp-QM&ip=45.171.21.118&id=b7b5a5b44bab094a&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768777239,&mh=Hh&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1440.055&lmt=1745783954089599&mt=1768776771&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRgIhAIv19Mcb7J_8omcTLuerFxgZj1L5wppEDde0TancJg8ZAiEA5k6RMRNhu6bXw07zYA5-5ORXxAVW0tTggNkOmB3_zUI%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgekeioK21L4-gWWPYlQ-MNntOYnlDYMIN5YH92GvxLtcCIE-oKehDQnkVJshbXrc0wZy1tP8IBM8xIgPIjeOCTTlk"
+                    }
+                ]
             },
             {
                 "number": "Lazarus (Dublado) - Episódio 5",
                 "url": "https://animefire.io/animes/lazarus-dublado/5",
                 "thumb": "https://animefire.io/img/video/lazarus/5.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806041&ei=GWZtacrFIYrEy_sP8_rC4Ac&ip=45.171.21.118&id=21d6cc7cf1c6f137&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768777241,&mh=kY&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1415.976&lmt=1746464320755123&mt=1768776798&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIhAJ73U9nV6qworhipUwZtGIzVzIByw-2qOXnHl8gcwLo4AiBWga2BAbyC2Jv8QR4jhPtz-LbBZh7nkp2SUDTRACvWIQ%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRgIhAMBCS1h65_ERXJCyBO0yjjsblcOJq9cCbtv8gwROKIVfAiEAtn4wmDc07SRb8jCv41z7AAqxZ8Eplq8whBGwOOs4UjA%3D"
+                    }
+                ]
             },
             {
                 "number": "Lazarus (Dublado) - Episódio 6",
                 "url": "https://animefire.io/animes/lazarus-dublado/6",
                 "thumb": "https://animefire.io/img/video/lazarus/6.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806040&ei=GGZtaeTNEefm3rsPr7XkiQ0&ip=45.171.21.118&id=d82e2b907ca653bb&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&cps=0&met=1768777240,&mh=xB&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1414.025&lmt=1746992055775091&mt=1768777011&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRgIhAMsRCzCAxADHxPVWNzU_0hq_EfKNnnqYvL1g-4vkPoKLAiEAzB01jnsZehr51fIGyW5Qt3OIC8tpTtxuun7F7KKhUq0%3D&lsparams=cps,met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAKk3QoE92zBTjkXvtPTYrgbCjXR9OVKjoEV9aNOjH_5JAiEA1cUVhYIO34e_XlLEhclkpZRKX7h-866biordq0maSlw%3D"
+                    }
+                ]
             },
             {
                 "number": "Lazarus (Dublado) - Episódio 7",
                 "url": "https://animefire.io/animes/lazarus-dublado/7",
                 "thumb": "https://animefire.io/img/video/lazarus/7.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806041&ei=GWZtafGIIbbWut0P-u6vqA4&ip=45.171.21.118&id=aecc37414a1acf9d&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768777241,&mh=ul&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1452.524&lmt=1748193177155157&mt=1768777011&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgV6jveGHOa_4o4MtjGpAM0mun-_6NA6EBQQXzQIktIQ8CIBH2CcPFZEN2OhQAPS6bNuNLSg9JrbRRcfthH_fX7a6I&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAPeFs-8FALQr3JlRNJ0Q7uCsRQEr4hvsTRItd4VGXPywAiEA2tTMzTgkrfQmfzBfuDjumyrp5o8UNvg7mVujFKuaF-Y%3D"
+                    }
+                ]
             },
             {
                 "number": "Lazarus (Dublado) - Episódio 8",
                 "url": "https://animefire.io/animes/lazarus-dublado/8",
                 "thumb": "https://animefire.io/img/video/lazarus/8.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806041&ei=GWZtadrRJOuFy_sPz9bbkQk&ip=45.171.21.118&id=5fbe205b3fff7d72&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768777241,&mh=fc&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1429.931&lmt=1748192943772508&mt=1768777011&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRgIhAOYG50ktGeDzNvQ9YTPJO_BkmR_3o5xbmJ17S2gYIKiFAiEAh4wJWtWzrSKVXpbxrkjDdOVyH9txEmWDS-nwcW1C_74%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhALmI9lvEmYZPIwXzliat-Q_wfHpL2BLH9QNlR07NqQdHAiAf5DF31pXerV3UzgPVdHEXpN7rIr6dEBMsMYpMHyeRlg%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Lazarus (Dublado) - Episódio 9",
                 "url": "https://animefire.io/animes/lazarus-dublado/9",
                 "thumb": "https://animefire.io/img/video/lazarus/9.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806041&ei=GWZtaemMI73Ey_sP0MOumAQ&ip=45.171.21.118&id=6f9083298dfb1992&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768777241,&mh=Yd&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1452.501&lmt=1748874148871340&mt=1768776771&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgYgaAZqzdT2MQYqS0mQ2622mIuM-wuXE4RuTG6p944tECIGTVy0l7EP_BLUViYjFPiX2wlYt2gzjRHn7GKLI4929q&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAOkf5LRwF2-Eba8WAZQ-MW4OU3aiJ--wd8NhFnpemU71AiAw6nN_nYU375dEWtlFs5yPbHFhaMx5P5bBn0yevygSoA%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Lazarus (Dublado) - Episódio 10",
                 "url": "https://animefire.io/animes/lazarus-dublado/10",
                 "thumb": "https://animefire.io/img/video/lazarus/10.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806042&ei=GmZtaaT6EtiHy_sPl_aomAM&ip=45.171.21.118&id=b60249d7b8254c7b&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768777242,&mh=v9&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1452.524&lmt=1749411095146949&mt=1768776771&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhAN3UXa5irkl0EIHgF8ZytkDijypQlVTSO3raOis6PgUkAiBJ4XtgqNtUzgYkmNfY6cPWlDstZ7Za9RKZJhjUYLLvFg%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgEZtNURBVL8DzOUzMV4aSdHXTCDE3dgm7q741dFRblHQCIF-QIyT2BV_Z3FPgxdmQo69a3n3WMqm_HlcBNv2P2bHC"
+                    }
+                ]
             },
             {
                 "number": "Lazarus (Dublado) - Episódio 11",
                 "url": "https://animefire.io/animes/lazarus-dublado/11",
                 "thumb": "https://animefire.io/img/video/lazarus/11.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768806042&ei=GWZtaa_RO8Oa3rsPgoCK0QY&ip=45.171.21.118&id=af10246f5ca5c5ac&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768777241,&mh=qs&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1452.547&lmt=1750083684799238&mt=1768777011&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIgUCFf1zgd14Hu68_XBjmnV3V0mchfT44rErphBSWqtMQCIQDp4PoNSd5sGX1Ne6bxB2JVh17lkDHcgGD5bSSef0985A%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgH4mG5a-FYoavbI9-ZMA68B_6rs9PW5Zomo62FuLFNzgCIGm_LpDHukSSqHjZeHh8g2I1nluMZHtCi6jbfkNOo-d5"
+                    }
+                ]
             }
         ]
     },
@@ -19332,67 +19547,122 @@
                 "number": "Sentai Daishikkaku - Episódio 2",
                 "url": "https://animefire.io/animes/sentai-daishikkaku/2",
                 "thumb": "https://animefire.io/img/video/sentai-daishikkaku/2.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808394&ei=Sm9taciNNdbXut0PlK7z4AY&ip=45.171.21.118&id=c30d3a4f088d4db5&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768779594,&mh=BA&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1428.096&lmt=1713107838850421&mt=1768779164&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRgIhAKqVd_dmuyC-7UobVxor0lpLagqVbNnESHlPqks-fRcCAiEA4Y1Csi0rtTCMOE6RwkFetXNd1UTVobmbYxL1B3TD1VA%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgcNZDSJqjY6OdwR595mtJJ150L47VfI-tSIjTG9GEJ9oCIQCjCy3DDZgzXHJaeCsxTT4D8TIW5qTA5UZYWImW_tmQqA%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Sentai Daishikkaku - Episódio 3",
                 "url": "https://animefire.io/animes/sentai-daishikkaku/3",
                 "thumb": "https://animefire.io/img/video/sentai-daishikkaku/3.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808394&ei=Sm9taZqLNYvZut0Pwq_HgAo&ip=45.171.21.118&id=c749f9a1c5112054&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768779594,&mh=My&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1428.027&lmt=1713708380723244&mt=1768779164&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRgIhAPiVnQ1DBzILaEAYKAVhwTJVZsTPn-STLxoxxe_MD10RAiEA0yngkNEDqLFTikgHdIk_BRopwve5ymhXheC48m42L-s%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgeS9Kaw2AgHdbwenx0rDNFxiqRqf9OF2vZ9nqbDO6RlICIQC4LSQbfRrdEbvHaxjOkHqCfxgXvGF1KVLgSt56U-DvSQ%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Sentai Daishikkaku - Episódio 4",
                 "url": "https://animefire.io/animes/sentai-daishikkaku/4",
                 "thumb": "https://animefire.io/img/video/sentai-daishikkaku/4.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808395&ei=S29taerTEZSFvPIPo4DeuQQ&ip=45.171.21.118&id=77dfe8bc08414ab7&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768779595,&mh=U6&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pcm2cms=yes&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1428.120&lmt=1714324210434212&mt=1768779164&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIgMAsVLXHl386Jf7Z5si2F5yGQkfSHSsLD0zTjqLx7qyoCIQCWfhhzAn_lYVpEwTul6u_1n-Cv5zoAXU7Kw2iZJcRy1g%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=APaTxxMwRQIgG68PDpHY3HJyh6aYCj1cZTEX6XllNXivJqzs5PYB-GsCIQD7V4jEoIVZgJ3wbKvKzdeKNMtNUUzwvqJsH30hgghRuQ%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Sentai Daishikkaku - Episódio 5",
                 "url": "https://animefire.io/animes/sentai-daishikkaku/5",
                 "thumb": "https://animefire.io/img/video/sentai-daishikkaku/5.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808395&ei=S29tac2HHo7iut0P7NLs6Qo&ip=45.171.21.118&id=786f8483a3f32f81&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768779595,&mh=6D&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1428.166&lmt=1715516592317269&mt=1768779403&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgZHb9izxo6Q4AFtc7xWxa67wMZ16vzB4FXMaDoaPhtckCIGsRzXHEFwiD9NCf2SMPxz1WHNMwsSfXIcaoMxjrgKX6&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgZJ16H_eoWe-JC2sh5AUATFRU-Zub11dGpBs7hCGhsMkCIQDvE8EjgEC3Njq-e09jH21e_LgHfiHk2oh_kSWzAXEI5g%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Sentai Daishikkaku - Episódio 6",
                 "url": "https://animefire.io/animes/sentai-daishikkaku/6",
                 "thumb": "https://animefire.io/img/video/sentai-daishikkaku/6.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808395&ei=S29tacv6LZqCy_sP0OvDsAI&ip=45.171.21.118&id=89e741c94586341e&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768779595,&mh=n1&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1428.166&lmt=1716129709685088&mt=1768779164&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRgIhAK74B79KnS8_aCuC2cGslC-KZUX_RhEcQFC5FJPHBX5HAiEAjHqcyCTrySYfoThxg8rSIW59ZYCqd6qaVWDHnwumu-4%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhANtCVCjWWL2vtnpAXG2qN41hx0BHJGpasIsJXA01k_VpAiEA8kk5hY_VJ6n2sG-OkNtJ4QU7owsLh4VKojcQocnQUTc%3D"
+                    }
+                ]
             },
             {
                 "number": "Sentai Daishikkaku - Episódio 7",
                 "url": "https://animefire.io/animes/sentai-daishikkaku/7",
                 "thumb": "https://animefire.io/img/video/sentai-daishikkaku/7.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808395&ei=S29tabCrOYHlxtYPio3z4Qo&ip=45.171.21.118&id=d81edbeb316623a0&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768779595,&mh=2J&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1427.237&lmt=1716730074426666&mt=1768779403&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRAIgVaJ1h3908OpQzXkFeE-PV1TvmO8dZMrf9zuxDeC-LpcCICxu0u_xvvCDyCOExdMySPf6rQdMsuJSPCqIGzWeScso&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAPxPbcOnrQoaC3P9IuI6-eRiAPN0iiZLnZIlqdDOhqGGAiEA_V9zhpft63cCbapo5Hung5uH7tXX-yCQ5nw-h5w8WEE%3D"
+                    }
+                ]
             },
             {
                 "number": "Sentai Daishikkaku - Episódio 8",
                 "url": "https://animefire.io/animes/sentai-daishikkaku/8",
                 "thumb": "https://animefire.io/img/video/sentai-daishikkaku/8.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808396&ei=TG9taZXrDunhut0P0uLfsQ4&ip=45.171.21.118&id=0cf026c2afdb8e0d&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768779596,&mh=ym&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1428.166&lmt=1717346719605650&mt=1768779164&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRgIhAM47KD9j5sPL66vWZeXWcztiOegRiDji7vHFayIWMFD0AiEA56YZGq5a_l1WrpEWGZ_DDIrUWTjk8L9n02nU3tfamio%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgOO2B9OtD0_n-ATTmO341QvpVjrK1_I83_Vyzop-Ph_ACIQCjuN3KM3vCuDONZZ2WQvPq3MGuNjgF0sZa_uyzR8KNow%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Sentai Daishikkaku - Episódio 9",
                 "url": "https://animefire.io/animes/sentai-daishikkaku/9",
                 "thumb": "https://animefire.io/img/video/sentai-daishikkaku/9.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808396&ei=TG9taYvkKr7gut0PvJLRyA4&ip=45.171.21.118&id=bca7943fe8f536fa&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768779596,&mh=uu&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1427.237&lmt=1717940620907176&mt=1768779164&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhAJYQi1ywlx3gBmbdpvn2l6PzfCy1-p4snMojcHM83LW2AiBABwAugJka_R_dBVmkD23cRMKz-O4dTVgn-vlGoa1UIg%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhANwUEns4_MCZDn7TTv11p3VHzTeGVSxE4Foge1KgdmkeAiAg5eRoC5ttrnYamJXwwEQEQ1N9DNOGl_mvPpMNl49qRQ%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Sentai Daishikkaku - Episódio 10",
                 "url": "https://animefire.io/animes/sentai-daishikkaku/10",
                 "thumb": "https://animefire.io/img/video/sentai-daishikkaku/10.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808396&ei=TG9taZnuKorEy_sP8_rC4Ac&ip=45.171.21.118&id=980015e0b3ca8f6d&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768779596,&mh=ut&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1427.237&lmt=1718540132825746&mt=1768779164&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRAIgeV3xVhLKgI5rJ4wfafW1ykf8oP9zLo_Lm70iX24W_qkCIGe81aCe3TFn-yhKI4W2EVkW0N7ygt-ulWUCO_3rWWY4&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAJrQCkuKN4vVvIjy-h_zZWd3GjrUnpN8sKgMB3CdOK0LAiBGxlkCBpQRfytDEOkyL6p9oCBPCnBuO4Hmpo3F09AKWQ%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Sentai Daishikkaku - Episódio 11",
                 "url": "https://animefire.io/animes/sentai-daishikkaku/11",
                 "thumb": "https://animefire.io/img/video/sentai-daishikkaku/11.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808396&ei=TG9tadbgKsb60_wPw5WjgAM&ip=45.171.21.118&id=8b4984a8328fd7fe&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768779596,&mh=CL&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1428.166&lmt=1719143830057074&mt=1768779164&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRgIhAMBgA7gq_fn328VnJZ4Yqz9zdmfn-6chTpi4Xa5R36nhAiEA1kGYPktGDodGY-mHdi2_fp0WZkAepd_dm-Yu0A9Bolw%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAIxnxWvKmYgPtTg9f7ZhXfiOM1AWctcF4z6GLBjcMkPQAiEAkDDsJogh17JZvRUOB3XeNDwQz7T5BxaXyyTQQSLf16Y%3D"
+                    }
+                ]
             },
             {
                 "number": "Sentai Daishikkaku - Episódio 12",
                 "url": "https://animefire.io/animes/sentai-daishikkaku/12",
                 "thumb": "https://animefire.io/img/video/sentai-daishikkaku/12.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808397&ei=TW9tadoWtuG63Q-40vvwBg&ip=45.171.21.118&id=d53945c1ee50676e&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768779597,&mh=iM&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1413.166&lmt=1719756786933855&mt=1768779403&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhAIrE-e14dynH6bVO28xMgKefJf0VjpSdzyUKTAKJGd7sAiBP0PP96FdCiS2a_5JgnU4aN1nkhSD0_CooqswcYeXdyQ%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAJX_HSjBT1GmJTv7cQQwV13Etx_DoD_6GYPFNLVZCPqqAiEAnpcbYtfSglXY1xGxljh_vhSfWzgtBhPwU8Y7FOqceBw%3D"
+                    }
+                ]
             }
         ]
     },
@@ -20508,7 +20778,12 @@
                 "number": "Sonny Boy - Episódio 4",
                 "url": "https://animefire.io/animes/sonny-boy/4",
                 "thumb": "https://animefire.io/img/video/sonny-boy/4.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808698&ei=enBtacurErfwy_sPr7y4qQ4&ip=45.171.21.118&id=e112db82ab884bef&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&cps=36&met=1768779898,&mh=Xj&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1470.055&lmt=1628182974168696&mt=1768779164&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIhAKwUz86Cp_3z70KSpvS9Al4DunEOZjvMMk1hT4JctI5bAiB0HvEJgbaFBy_eJYxi67KY4CiemY8GxFlLIxLxeS-a3Q%3D%3D&lsparams=cps,met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAPUlx07d_HRuVRLsu6s4M19aPe-gXNLA-uhqI0u24nxsAiEAuiKKSXn7dVMW3EkCRX0G-olcgFj5x4snSTI8HNM1d7s%3D"
+                    }
+                ]
             },
             {
                 "number": "Sonny Boy - Episódio 5",
@@ -23075,49 +23350,89 @@
                 "number": "Terminator 0 - Episódio 1",
                 "url": "https://animefire.io/animes/terminator-0/1",
                 "thumb": "https://animefire.io/img/video/terminator-0/1.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809011&ei=s3FtadD3A9r2zLUPy4Tb-AI&ip=45.171.21.118&id=c2c89b463adead05&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780211,&mh=7C&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1700.327&lmt=1725027283745749&mt=1768779885&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIhALoL2KaWSOzjqFmleqSWuTQxyyTRI-uwYQDQgTjPbbtMAiAERRh8eWvbnQgzQNscoK3w0XF05NetN5v3L_tAk3hR0w%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAI4QL3y6jTRNguOJrRj-XONJsHn1pO6UyEEs4GPpNQiSAiBmh48cxowSjmdq6kCUCaLT4JvpgtAd55eayHvGdCmRBg%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Terminator 0 - Episódio 2",
                 "url": "https://animefire.io/animes/terminator-0/2",
                 "thumb": "https://animefire.io/img/video/terminator-0/2.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809011&ei=s3Ftaf3RI77gut0PlajMiAo&ip=45.171.21.118&id=35c0376b752dedbb&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780211,&mh=Hm&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1729.909&lmt=1725066003171056&mt=1768779885&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIgXgseBowZsNXT8ZFooRIC8DP-4CNHPfFG6wDCBpZNcXQCIQDo-BSGaGSozmxlxt0KrnskqCyz585H-7jk-4-VEWwl6w%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAJuL8HxGRX3-2yvbM3hbE_InYOR3mGBkUQglAgYnekOXAiARZGzaFM8e63-Pd0lNQdeiYL9pF3lD_dqZcHUSI7n3ng%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Terminator 0 - Episódio 3",
                 "url": "https://animefire.io/animes/terminator-0/3",
                 "thumb": "https://animefire.io/img/video/terminator-0/3.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809012&ei=tHFtaaaQJISBy_sP3puIEA&ip=45.171.21.118&id=0433d5424efdae97&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780212,&mh=1v&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1799.012&lmt=1724961795556323&mt=1768779885&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgTvBMukmnFQKGJr1i6K_zy236GpQBWQ7w5dnb38Fw9I4CICQAxTHsISmhNxPMGFORc9PWe0liDmaFk8Jn-WZ6KGf_&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAM7M4ica1pem0bdvA8SCk8WPOYrkvmXH3UIPzV4ZaZvCAiEArXIbfBiPiEsJb1ZyVk1xmzc1JPUsFBIuV3XSmuI_rjU%3D"
+                    }
+                ]
             },
             {
                 "number": "Terminator 0 - Episódio 4",
                 "url": "https://animefire.io/animes/terminator-0/4",
                 "thumb": "https://animefire.io/img/video/terminator-0/4.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809012&ei=tHFtaev0I7Pgut0Po_m4-Q0&ip=45.171.21.118&id=dbe0631771b0b064&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780212,&mh=1Y&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1635.822&lmt=1724962123495492&mt=1768779885&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgaJ59UQKOsviAPmgZdZF2efnom6wo8csvFRktLl_k-W0CIGA8UNrmK3kN1h11vuqvAQGtgJUniD5dgdqGCV5LUnoK&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAPAPaLAxjGhkLG08ntm01MFmxs5Amq7_yPhO92EvFhFkAiEAlkY0GtjO-lKd-x7nFrfgjILp0lQFEl0pULqMRVQvRNQ%3D"
+                    }
+                ]
             },
             {
                 "number": "Terminator 0 - Episódio 5",
                 "url": "https://animefire.io/animes/terminator-0/5",
                 "thumb": "https://animefire.io/img/video/terminator-0/5.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809012&ei=tHFtaci1JLDZut0Pu5vciQI&ip=45.171.21.118&id=3305bc8259d8cda9&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780212,&mh=hX&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1782.131&lmt=1724981177946885&mt=1768779885&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgKQSQimASYdrf1mnIjYeKsDWz6qqjxQgyUMnVeKVoZgQCIFWM4YGL4oAxBZn73mfFoKsSa_H0qKAWc_zfykzGY4wB&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgTU9a5GSUZ0cFhOVtqlroAyBIVWsNkphRFJ8j_NmI09MCIEPR-_gz9oJDKbQ2jRptndC6XP3H-0Mfi4ATRnTF8A57"
+                    }
+                ]
             },
             {
                 "number": "Terminator 0 - Episódio 6",
                 "url": "https://animefire.io/animes/terminator-0/6",
                 "thumb": "https://animefire.io/img/video/terminator-0/6.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809012&ei=tHFtaei1JIDhut0PxfW8mQM&ip=45.171.21.118&id=3ef89d5212f4255c&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780212,&mh=d0&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1550.605&lmt=1725024128107776&mt=1768779885&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIgcGMBa-wQRkr1yx1h1hCCW1VGo-G1yUTLmsNTj-kC3j0CIQDBdvGJp1fQZpI_k-X0lukMKQhcmyPJ2OSA_-ZLkSEHRQ%3D%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAI4XxeGA59M522-5nkY5UFmZELRPQPG9UaPwJvHipZlFAiB7LO358CxHQJUyrzv4xEfk-MOA42Z9Ti-i3HibXIzuMw%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Terminator 0 - Episódio 7",
                 "url": "https://animefire.io/animes/terminator-0/7",
                 "thumb": "https://animefire.io/img/video/terminator-0/7.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809012&ei=tHFtaaXZI8Oa3rsPma6OgQM&ip=45.171.21.118&id=8fa8dccfc0dd6e2f&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780212,&mh=lF&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1719.925&lmt=1724971056261729&mt=1768779885&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgV93rFPzQ-86rus0gzVmKoD7Vw43HtptBT3rHREYZFncCIFPpNr4RA7xtl2ydOygQ8WPsEF_WLhRNf08vOvrBbMBN&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAICPRIHEhig9xdz-PrQsxjGBnz_4NA99UzBitannYuY0AiB7_bKzoYx1R-kUAE1lFGEl_Qk0luXafayCQZXHVLwP4Q%3D%3D"
+                    }
+                ]
             },
             {
                 "number": "Terminator 0 - Episódio 8",
                 "url": "https://animefire.io/animes/terminator-0/8",
                 "thumb": "https://animefire.io/img/video/terminator-0/8.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr1---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768809012&ei=tHFtadO9NbGFy_sP4ZbS6As&ip=45.171.21.118&id=9dac0536af229fd6&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&met=1768780212,&mh=vE&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=1&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1713.771&lmt=1725010862070559&mt=1768779885&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRgIhAKqH6vdjODdGHxx_RpRN_H2YrGhKbScK9Jnxh5X3H4aHAiEAv6ncj_zlwqlRsU4nnJp7XOs9eJJ3tmiit9pysvEPVlk%3D&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIgWnC48che8kY37vHTE0uAvGK_r4gXOm64a3A7BSpchqICIQCBTvvIGywK9eByep1KuQTMnlFKeyfO2Bwo5XMVVZ2NEA%3D%3D"
+                    }
+                ]
             }
         ]
     },

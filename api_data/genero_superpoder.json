@@ -11458,7 +11458,12 @@
                 "number": "Sonny Boy - Episódio 4",
                 "url": "https://animefire.io/animes/sonny-boy/4",
                 "thumb": "https://animefire.io/img/video/sonny-boy/4.webp",
-                "videos": []
+                "videos": [
+                    {
+                        "quality": "SD/HD",
+                        "url": "https://rr2---sn-u0gcvvoxucg-hj1e.googlevideo.com/videoplayback?expire=1768808698&ei=enBtacurErfwy_sPr7y4qQ4&ip=45.171.21.118&id=e112db82ab884bef&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&cps=36&met=1768779898,&mh=Xj&mm=31&mn=sn-u0gcvvoxucg-hj1e&ms=au&mv=m&mvi=2&pl=24&rms=au,au&susc=bl&eaua=AGNlHydycE4&mime=video/mp4&vprv=1&rqh=1&dur=1470.055&lmt=1628182974168696&mt=1768779164&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJEij0EwRQIhAKwUz86Cp_3z70KSpvS9Al4DunEOZjvMMk1hT4JctI5bAiB0HvEJgbaFBy_eJYxi67KY4CiemY8GxFlLIxLxeS-a3Q%3D%3D&lsparams=cps,met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAPUlx07d_HRuVRLsu6s4M19aPe-gXNLA-uhqI0u24nxsAiEAuiKKSXn7dVMW3EkCRX0G-olcgFj5x4snSTI8HNM1d7s%3D"
+                    }
+                ]
             },
             {
                 "number": "Sonny Boy - Episódio 5",
