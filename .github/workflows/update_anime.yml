@@ -1,0 +1,35 @@
+name: Update Anime Database
+
+on:
+  schedule:
+    # Programado para rodar todos os dias às 04:00 AM (UTC)
+    - cron: '0 4 * * *'
+  workflow_dispatch: # Permite que você rode manualmente pelo botão no GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar dependências
+        run: |
+          pip install requests curl_cffi beautifulsoup4 lxml
+
+      - name: Executar Workflow de Scraping
+        run: python workflow.py
+
+      - name: Commit e Push das atualizações
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add api_data/*.json animes_full_db.json
+          # Só faz o commit se houver mudanças para evitar erros
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto Update: $(date +'%Y-%m-%d')" && git push)

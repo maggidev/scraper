@@ -1,0 +1,16 @@
+# Ambientes virtuais e Python
+venv/
+__pycache__/
+*.pyc
+
+# Arquivos de Backup e Lixo (BKPs)
+*bk*.json
+*bk*.py
+bkpt*/
+lista_limpa*.json
+full_db.json
+db.json
+animes.json
+
+# Opcional: Se você quiser que o código do scraper seja privado, 
+# mas o GitHub Actions precisa dele para rodar, então NÃO adicione os .py aqui.
