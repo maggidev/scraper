@@ -65,43 +65,39 @@ class AnimeFireAPI:
             print(f"❌ Erro ao baixar sitemap: {e}")
             return []
 
-    # No aniscraper.py, altere a função get_video_links:
+    async def get_video_links(self, ep_name: str, ep_url: str, anime_slug: str) -> Episode:
+        """Extrai links de vídeo e gera thumbnail corrigida, filtrando links blogger."""
+        async with self.semaphore:
+            try:
+                ep_number = ep_url.split("/")[-1]
+                asset_slug = self._clean_slug_for_assets(anime_slug)
+                ep_thumb = f"https://animefire.io/img/video/{asset_slug}/{ep_number}.webp"
 
-async def get_video_links(self, ep_name: str, ep_url: str, anime_slug: str) -> Episode:
-    """Extrai links de vídeo e gera thumbnail corrigida, filtrando links blogger."""
-    async with self.semaphore:
-        try:
-            ep_number = ep_url.split("/")[-1]
-            asset_slug = self._clean_slug_for_assets(anime_slug)
-            ep_thumb = f"https://animefire.io/img/video/{asset_slug}/{ep_number}.webp"
+                resp = await self.session.get(ep_url, timeout=15)
+                soup = BeautifulSoup(resp.text, "html.parser")
+                videos = []
 
-            resp = await self.session.get(ep_url, timeout=15)
-            soup = BeautifulSoup(resp.text, "html.parser")
-            videos = []
-
-            video_tag = soup.select_one("video#my-video")
-            if video_tag and video_tag.get("data-video-src"):
-                api_resp = await self.session.get(video_tag["data-video-src"])
-                for item in api_resp.json().get("data", []):
-                    # --- FILTRO AQUI ---
-                    video_url = item.get("src", "")
-                    if "source=blogger" not in video_url:
-                        videos.append(Video(quality=item.get("label"), url=video_url))
-
-            if not videos:
-                iframe = soup.select_one("div#div_video iframe")
-                if iframe:
-                    iframe_resp = await self.session.get(iframe.get("src"))
-                    m = re.search(r'play_url"\s*:\s*"([^"]+)', iframe_resp.text)
-                    if m:
-                        # --- FILTRO AQUI TAMBÉM ---
-                        video_url = m.group(1)
+                video_tag = soup.select_one("video#my-video")
+                if video_tag and video_tag.get("data-video-src"):
+                    api_resp = await self.session.get(video_tag["data-video-src"])
+                    for item in api_resp.json().get("data", []):
+                        video_url = item.get("src", "")
                         if "source=blogger" not in video_url:
-                            videos.append(Video(quality="SD/HD", url=video_url))
-            
-            return Episode(number=ep_name, url=ep_url, thumb=ep_thumb, videos=videos)
-        except Exception:
-            return Episode(number=ep_name, url=ep_url, thumb="", videos=[])
+                            videos.append(Video(quality=item.get("label"), url=video_url))
+
+                if not videos:
+                    iframe = soup.select_one("div#div_video iframe")
+                    if iframe:
+                        iframe_resp = await self.session.get(iframe.get("src"))
+                        m = re.search(r'play_url"\s*:\s*"([^"]+)', iframe_resp.text)
+                        if m:
+                            video_url = m.group(1)
+                            if "source=blogger" not in video_url:
+                                videos.append(Video(quality="SD/HD", url=video_url))
+                
+                return Episode(number=ep_name, url=ep_url, thumb=ep_thumb, videos=videos)
+            except Exception:
+                return Episode(number=ep_name, url=ep_url, thumb="", videos=[])
 
     async def scrape_full_anime(self, url: str) -> Optional[AnimeData]:
         """Faz o scrape completo da página do anime com correção de assets."""
@@ -113,10 +109,7 @@ async def get_video_links(self, ep_name: str, ep_url: str, anime_slug: str) -> E
                 title_tag = soup.find("h1")
                 if not title_tag: return None
                 
-                # Slug real do anime para links e identificação
                 anime_slug = url.split("/")[-1].replace("-todos-os-episodios", "")
-                
-                # Slug limpo para buscar a imagem no servidor de assets
                 asset_slug = self._clean_slug_for_assets(anime_slug)
                 cover_url = f"https://animefire.io/img/animes/{asset_slug}-large.webp"
 
@@ -181,9 +174,5 @@ async def get_video_links(self, ep_name: str, ep_url: str, anime_slug: str) -> E
             
             print(f"⏳ Salvo: {len(all_data)} / {total_sitemap} animes totais.")
 
-async def main():
-    api = AnimeFireAPI()
-    await api.run_automation()
-
-if __name__ == "__main__":
-    asyncio.run(main())
+# Nota: O bloco "if __name__ == '__main__':" foi removido daqui porque 
+# quem controla a execução agora é o workflow.py
