@@ -31,6 +31,3 @@ def processar_lista_animes(caminho_entrada, caminho_saida):
 
     except Exception as e:
         print(f"Ocorreu um erro: {e}")
-
-# Execução
-processar_lista_animes('animes.json', 'lista_limpa.json')
