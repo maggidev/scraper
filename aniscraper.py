@@ -39,15 +39,31 @@ class AnimeFireAPI:
         self.semaphore = asyncio.Semaphore(10) 
 
     async def _get_with_bypass(self, target_url: str):
-        """Usa ScraperAnt para URLs protegidas ou conexão direta para o resto."""
-        # Se for a lista completa ou sitemap, usamos bypass obrigatoriamente
-        if "sitemap" in target_url or "lista-de-animes" in target_url:
-            print(f"🛡️ Usando Bypass ScraperAnt para: {target_url}")
-            proxy_url = f"https://api.scraperant.com/v2/general?url={target_url}&x-api-key={self.scraperant_key}&browser=true"
-            return await self.session.get(proxy_url, timeout=60)
+        """Usa ScrapingAnt (Corrigido) para vencer o 403."""
+        if not self.scraperant_key:
+            print("❌ ERRO: Chave SCRAPERANT_API_KEY não encontrada!")
+            return None
+
+        # 1. Codificar a URL (Transforma :// em %3A%2F%2F)
+        import urllib.parse
+        encoded_target = urllib.parse.quote(target_url, safe='')
         
-        # Para episódios individuais, tentamos direto primeiro (economiza créditos)
-        return await self.session.get(target_url, timeout=20)
+        # 2. URL Corrigida (scrapingant com 'ing')
+        proxy_url = (
+            f"https://api.scrapingant.com/v2/general"
+            f"?url={encoded_target}"
+            f"&x-api-key={self.scraperant_key}"
+            f"&browser=true"
+        )
+
+        print(f"🛡️ Enviando requisição para ScrapingAnt (Bypass)...")
+        try:
+            # ScrapingAnt com browser=true pode demorar, mantemos timeout alto
+            resp = await self.session.get(proxy_url, timeout=60)
+            return resp
+        except Exception as e:
+            print(f"❌ Erro de conexão com ScrapingAnt: {e}")
+            return None
 
     async def get_all_links_intelligently(self, db_exists: bool) -> List[str]:
         """
