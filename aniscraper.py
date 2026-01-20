@@ -33,11 +33,32 @@ class AnimeData:
 class AnimeFireAPI:
     def __init__(self):
         self.base_url = "https://animefire.io"
-        # Impersonate Chrome 120 (mais recente) para bater com os headers
+        # Usamos impersonate mas vamos forçar a versão 120 que é estável no curl_cffi
         self.session = AsyncSession(impersonate="chrome120")
-        self.semaphore = asyncio.Semaphore(3) # Reduzido drasticamente: Velocidade alta = Bloqueio Cloudflare
-
- 
+        
+        # DEFINA SEUS HEADERS REAIS (Copiados do seu fetch)
+        self.session.headers.update({
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "pt",
+            "cache-control": "max-age=0",
+            "priority": "u=0, i",
+            "sec-ch-ua": '"Google Chrome";v="120", "Chromium";v="120", "Not A(Brand";v="24"',
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": '"Linux"',
+            "sec-fetch-dest": "document",
+            "sec-fetch-mode": "navigate",
+            "sec-fetch-site": "none",
+            "sec-fetch-user": "?1",
+            "upgrade-insecure-requests": "1"
+        })
+        
+        # INJEÇÃO DE COOKIE: Substitua pelo valor do sid que você pegou
+        # Nota: Cookies de sessão expiram. Se parar de funcionar, você precisará de um novo 'sid'.
+        self.session.cookies.update({
+            "sid": "HdnzGkbBbm67SkfOwEUtPbduzpWSwwLQrnsPc0wuFNOABs0HEomBBZZ9XeA-7DR0"
+        })
+        
+        self.semaphore = asyncio.Semaphore(20)
 
     def _get_info_text(self, soup, label):
         for info in soup.select(".animeInfo"):
@@ -51,56 +72,29 @@ class AnimeFireAPI:
         return slug.replace("-dublado", "")
 
     async def get_all_links_from_sitemap(self) -> List[str]:
-        print("📥 Acessando lista de animes via Bypass...")
+        print("📥 Acessando fontes com Cookie Injetado...")
+        # Tentaremos primeiro o sitemap com esse cookie
+        urls = [f"{self.base_url}/sitemap.xml", f"{self.base_url}/lista-de-animes"]
         
-        # Headers que mimetizam um navegador real acessando o site pela primeira vez
-        headers = {
-            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-            "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-            "referer": "https://www.google.com/", # Simula que você veio do Google
-            "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
-            "sec-ch-ua-mobile": "?0",
-            "sec-ch-ua-platform": '"Windows"',
-            "sec-fetch-dest": "document",
-            "sec-fetch-mode": "navigate",
-            "sec-fetch-site": "cross-site",
-            "sec-fetch-user": "?1",
-            "upgrade-insecure-requests": "1",
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        }
-
-        # Primeiro, "visita" a home para ganhar um cookie de sessão
-        try:
-            print("🍪 Pegando cookies de sessão...")
-            await self.session.get(self.base_url, headers=headers, timeout=20)
-            await asyncio.sleep(2) # Pausa dramática para parecer humano
-        except: pass
-
-        # Agora tenta a lista de animes
-        url_lista = f"{self.base_url}/lista-de-animes"
-        try:
-            resp = await self.session.get(url_lista, headers=headers, timeout=30)
-            print(f"📡 Resposta da lista: {resp.status_code}")
-            
-            # Se a Cloudflare bloquear com 403, tentamos o sitemap como fallback
-            if resp.status_code != 200:
-                print("⚠️ Bloqueado na lista. Tentando Sitemap...")
-                resp = await self.session.get(f"{self.base_url}/sitemap.xml", headers=headers, timeout=30)
-
-            links_encontrados = re.findall(r'https?://animefire\.io/animes/[a-z0-9-]+', resp.text)
-            
-            if links_encontrados:
-                links = [f"{l}-todos-os-episodios" if "-todos-os-episodios" not in l else l for l in links_encontrados]
-                links = sorted(list(set(links)))
-                print(f"🔗 Sucesso! {len(links)} links encontrados.")
-                return links
-            else:
-                print("❌ Nenhum link encontrado. Cloudflare deve ter entregue um desafio de JS.")
-                # Debug: salva o que recebeu para você ver no log do GitHub
-                with open("debug_resp.html", "w") as f: f.write(resp.text[:2000])
-        except Exception as e:
-            print(f"❌ Erro na conexão: {e}")
-        
+        for url in urls:
+            try:
+                print(f"📡 Tentando: {url}")
+                resp = await self.session.get(url, timeout=30)
+                
+                # Se o cookie funcionar, o status será 200
+                if resp.status_code == 200:
+                    links = re.findall(r'https?://animefire\.io/animes/[a-z0-9-]+', resp.text)
+                    if links:
+                        # Limpeza e formatação
+                        final = [f"{l}-todos-os-episodios" if "-todos-os-episodios" not in l else l for l in links]
+                        final = sorted(list(set(final)))
+                        print(f"🔗 Sucesso! {len(final)} links extraídos.")
+                        return final
+                else:
+                    print(f"⚠️ Erro {resp.status_code} em {url}")
+                    # Se recebermos 403 aqui, o 'sid' pode ter expirado ou o IP do GitHub foi marcado
+            except Exception as e:
+                print(f"❌ Falha: {e}")
         return []
 
     async def get_video_links(self, ep_name: str, ep_url: str, anime_slug: str) -> Episode:
