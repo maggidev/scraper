@@ -53,7 +53,7 @@ class AnimeFireAPI:
             f"https://api.scrapingant.com/v2/general"
             f"?url={encoded_target}"
             f"&x-api-key={self.scraperant_key}"
-            f"&browser=true"
+            f"&browser=false"
         )
 
         print(f"🛡️ Enviando requisição para ScrapingAnt (Bypass)...")
