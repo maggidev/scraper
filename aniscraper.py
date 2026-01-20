@@ -58,18 +58,49 @@ class AnimeFireAPI:
         return slug.replace("-dublado", "")
 
     async def get_all_links_from_sitemap(self) -> List[str]:
-        """Busca todos os links de animes no sitemap do site."""
         print("📥 Acessando sitemap para buscar lista de animes...")
+        
+        # Lista de User-Agents para variar
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "text/xml,application/xml,application/xhtml+xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
+            "Sec-Fetch-User": "?1",
+            "Upgrade-Insecure-Requests": "1"
+        }
+
         try:
-            resp = await self.session.get(f"{self.base_url}/sitemap.xml", timeout=30)
-            # No GitHub Actions, o html.parser é mais estável que o xml puro
-            soup = BeautifulSoup(resp.text, "html.parser") 
-            links = [loc.text for loc in soup.find_all("loc") if "-todos-os-episodios" in loc.text]
+            # Tentativa com curl_cffi forçando o protocolo
+            resp = await self.session.get(
+                f"{self.base_url}/sitemap.xml", 
+                headers=headers,
+                timeout=30
+            )
+
+            if resp.status_code != 200:
+                print(f"⚠️ Erro de Status: {resp.status_code}. O site pode ter detectado o bot.")
+                # Se o status for 403 ou 404, o site nos barrou
+                return []
+
+            # Usando Regex para extrair links - ignora erros de parse de XML
+            links = re.findall(r'<loc>(https?://animefire\.io/animes/[^<]+-todos-os-episodios)</loc>', resp.text)
             
+            if not links:
+                print(f"🕵️ Debug: Sitemap carregado ({len(resp.text)} bytes), mas nenhum link extraído.")
+                # Se o corpo da resposta for pequeno, pode ser uma página de erro do Cloudflare
+                if len(resp.text) < 1000:
+                    print(f"Conteúdo recebido: {resp.text}")
+
             print(f"🔗 Links encontrados no sitemap: {len(links)}")
             return sorted(list(set(links)))
+            
         except Exception as e:
-            print(f"❌ Erro crítico ao baixar sitemap: {e}")
+            print(f"❌ Falha na requisição do sitemap: {e}")
             return []
 
     async def get_video_links(self, ep_name: str, ep_url: str, anime_slug: str) -> Episode:
