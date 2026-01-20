@@ -58,7 +58,7 @@ class AnimeFireAPI:
         print(f"🛡️ Enviando requisição para ScrapingAnt (Bypass)...")
         try:
             # ScrapingAnt com browser=true pode demorar, mantemos timeout alto
-            resp = await self.session.get(proxy_url, timeout=60)
+            resp = await self.session.get(proxy_url, timeout=360)
             return resp
         except Exception as e:
             print(f"❌ Erro de conexão com ScrapingAnt: {e}")
