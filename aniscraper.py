@@ -42,33 +42,34 @@ class AnimeFireAPI:
         self.session.headers.update({"Referer": self.base_url})
         self.semaphore = asyncio.Semaphore(15) 
 
-    # --- MÉTODO CORRIGIDO (INDENTADO PARA DENTRO DA CLASSE) ---
     async def get_valid_proxy(self):
         print("🔍 Buscando lista de proxies brasileiros...")
+        # URL atualizada para pegar apenas proxies HTTPS/Elite
         url_proxies = "https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&country=br&proxy_format=ipport&http_support=true"
         
         try:
             resp = await self.session.get(url_proxies, timeout=15)
             proxy_list = resp.text.splitlines()
-            print(f"✅ {len(proxy_list)} proxies encontrados. Testando...")
+            print(f"✅ {len(proxy_list)} proxies encontrados. Testando no alvo...")
 
             for proxy in proxy_list:
                 proxy_url = f"http://{proxy}"
                 try:
-                    # Testa no próprio site do anime para ver se ele aceita o IP
+                    # TESTE REAL: Só aceita se abrir o AnimeFire, não o Google
                     test_resp = await self.session.get(
-                        "https://animefire.io", 
+                        f"{self.base_url}/lista-de-animes", 
                         proxies={"http": proxy_url, "https": proxy_url},
-                        timeout=5
+                        timeout=8 # Aumentado para proxies lentos
                     )
-                    if test_resp.status_code == 200:
-                        print(f"🚀 Proxy funcional encontrado: {proxy}")
+                    # Se retornou 200 e tem conteúdo, o proxy é elite!
+                    if test_resp.status_code == 200 and "anime" in test_resp.text.lower():
+                        print(f"🚀 Proxy ELITE encontrado: {proxy}")
                         return proxy_url
                 except:
                     continue
             return None
         except Exception as e:
-            print(f"❌ Erro ao obter lista de proxies: {e}")
+            print(f"❌ Erro ao obter lista: {e}")
             return None
 
     def _get_info_text(self, soup, label):
@@ -83,27 +84,29 @@ class AnimeFireAPI:
         return slug.replace("-dublado", "")
 
     async def get_all_links_from_sitemap(self) -> List[str]:
-        """Extrai links diretamente da LISTA HTML (mais difícil de bloquear que o XML)."""
-        print("📥 Acessando lista de animes para buscar URLs...")
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-        }
+        """Busca links usando um Regex mais flexível para evitar 'Links: 0'."""
+        print("📥 Acessando fonte de links...")
         try:
-            # Trocamos o sitemap.xml pela página de lista comum
-            resp = await self.session.get(f"{self.base_url}/lista-de-animes", headers=headers, timeout=30)
+            # Tenta primeiro o sitemap, se falhar tenta a lista
+            for path in ["/sitemap.xml", "/lista-de-animes"]:
+                resp = await self.session.get(f"{self.base_url}{path}", timeout=30)
+                if resp.status_code == 200:
+                    # Regex ULTRA FLEXÍVEL: Pega qualquer link que contenha /animes/ e tenha o slug
+                    # Funciona tanto em XML quanto em HTML
+                    links_encontrados = re.findall(r'https?://animefire\.io/animes/[a-z0-9-]+', resp.text)
+                    
+                    if links_encontrados:
+                        # Formata e remove duplicatas
+                        links = [f"{l}-todos-os-episodios" if "-todos-os-episodios" not in l else l for l in links_encontrados]
+                        links = sorted(list(set(links)))
+                        print(f"🔗 Sucesso via {path}! Links encontrados: {len(links)}")
+                        return links
             
-            # Pega todos os links que apontam para animes
-            links_brutos = re.findall(r'https?://animefire\.io/animes/[a-z0-9-]+', resp.text)
-            
-            # Adiciona o sufixo necessário
-            links = [f"{l}-todos-os-episodios" if "-todos-os-episodios" not in l else l for l in links_brutos]
-            
-            final_links = sorted(list(set(links)))
-            print(f"🔗 Links encontrados: {len(final_links)}")
-            return final_links
+            # Se chegou aqui, o proxy entregou uma página vazia (bloqueio de JS ou WAF)
+            print("⚠️ Página entregue sem links. O proxy pode estar sendo filtrado.")
+            return []
         except Exception as e:
-            print(f"❌ Falha ao buscar lista: {e}")
+            print(f"❌ Erro na extração: {e}")
             return []
 
     async def get_video_links(self, ep_name: str, ep_url: str, anime_slug: str) -> Episode:
