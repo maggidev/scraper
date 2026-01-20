@@ -2,6 +2,7 @@ import asyncio
 import json
 import re
 import warnings
+import os
 from dataclasses import dataclass, field, asdict
 from typing import List, Optional
 from curl_cffi.requests import AsyncSession
@@ -37,8 +38,10 @@ class AnimeData:
 class AnimeFireAPI:
     def __init__(self):
         self.base_url = "https://animefire.io"
+        # Impersonate simula um navegador real para evitar bloqueios
         self.session = AsyncSession(impersonate="chrome110")
         self.session.headers.update({"Referer": self.base_url})
+        # Limita a 15 requisições simultâneas para não ser banido pelo servidor
         self.semaphore = asyncio.Semaphore(15) 
 
     def _get_info_text(self, soup, label):
@@ -55,18 +58,22 @@ class AnimeFireAPI:
         return slug.replace("-dublado", "")
 
     async def get_all_links_from_sitemap(self) -> List[str]:
+        """Busca todos os links de animes no sitemap do site."""
         print("📥 Acessando sitemap para buscar lista de animes...")
         try:
-            resp = await self.session.get(f"{self.base_url}/sitemap.xml")
-            soup = BeautifulSoup(resp.text, features="xml")
+            resp = await self.session.get(f"{self.base_url}/sitemap.xml", timeout=30)
+            # No GitHub Actions, o html.parser é mais estável que o xml puro
+            soup = BeautifulSoup(resp.text, "html.parser") 
             links = [loc.text for loc in soup.find_all("loc") if "-todos-os-episodios" in loc.text]
+            
+            print(f"🔗 Links encontrados no sitemap: {len(links)}")
             return sorted(list(set(links)))
         except Exception as e:
-            print(f"❌ Erro ao baixar sitemap: {e}")
+            print(f"❌ Erro crítico ao baixar sitemap: {e}")
             return []
 
     async def get_video_links(self, ep_name: str, ep_url: str, anime_slug: str) -> Episode:
-        """Extrai links de vídeo e gera thumbnail corrigida, filtrando links blogger."""
+        """Extrai links de vídeo de um episódio específico."""
         async with self.semaphore:
             try:
                 ep_number = ep_url.split("/")[-1]
@@ -77,14 +84,17 @@ class AnimeFireAPI:
                 soup = BeautifulSoup(resp.text, "html.parser")
                 videos = []
 
+                # Tenta extrair do player principal (API interna)
                 video_tag = soup.select_one("video#my-video")
                 if video_tag and video_tag.get("data-video-src"):
                     api_resp = await self.session.get(video_tag["data-video-src"])
                     for item in api_resp.json().get("data", []):
                         video_url = item.get("src", "")
+                        # Remove vídeos hospedados no Blogger (baixa qualidade/instáveis)
                         if "source=blogger" not in video_url:
                             videos.append(Video(quality=item.get("label"), url=video_url))
 
+                # Se não achou no player principal, tenta no iframe (fallback)
                 if not videos:
                     iframe = soup.select_one("div#div_video iframe")
                     if iframe:
@@ -100,7 +110,7 @@ class AnimeFireAPI:
                 return Episode(number=ep_name, url=ep_url, thumb="", videos=[])
 
     async def scrape_full_anime(self, url: str) -> Optional[AnimeData]:
-        """Faz o scrape completo da página do anime com correção de assets."""
+        """Coleta todos os dados de um anime e seus respectivos episódios."""
         async with self.semaphore:
             try:
                 resp = await self.session.get(url, timeout=20)
@@ -127,7 +137,9 @@ class AnimeFireAPI:
                 ep_elements = soup.select("div.div_video_list > a")
                 if ep_elements:
                     tasks = [self.get_video_links(a.text.strip(), a["href"], anime_slug) for a in ep_elements]
-                    anime.episodes = await asyncio.gather(*tasks)
+                    episodes_results = await asyncio.gather(*tasks)
+                    # Filtro: Só mantém episódios que possuem algum vídeo válido
+                    anime.episodes = [ep for ep in episodes_results if len(ep.videos) > 0]
 
                 return anime
             except Exception as e:
@@ -135,44 +147,60 @@ class AnimeFireAPI:
                 return None
 
     async def run_automation(self):
+        """Lógica principal de scraping incremental e atualização."""
         links = await self.get_all_links_from_sitemap()
-        total_sitemap = len(links)
         
-        all_data = []
-        processed_slugs = set()
-        
-        try:
-            with open("animes_full_db.json", "r", encoding="utf-8") as f:
-                all_data = json.load(f)
-                processed_slugs = {anime['slug'] for anime in all_data}
-                print(f"📦 Checkpoint: {len(processed_slugs)} animes já carregados.")
-        except (FileNotFoundError, json.JSONDecodeError):
-            print("🆕 Criando novo banco de dados...")
-
-        links_to_process = [
-            l for l in links 
-            if l.split("/")[-1].replace("-todos-os-episodios", "") not in processed_slugs
-        ]
-        
-        if not links_to_process:
-            print("✅ O banco de dados já está atualizado.")
+        if not links:
+            print("🛑 Erro: Sitemap vazio ou bloqueado. Abortando para proteger a base de dados.")
             return
 
-        print(f"🚀 Extraindo {len(links_to_process)} novos itens...")
+        db_path = "animes_full_db.json"
+        db_map = {}
 
+        # Tenta carregar dados existentes
+        if os.path.exists(db_path):
+            try:
+                with open(db_path, "r", encoding="utf-8") as f:
+                    data_list = json.load(f)
+                    # Usamos dicionário para evitar duplicatas e facilitar a atualização
+                    db_map = {anime['slug']: anime for anime in data_list}
+                print(f"📦 Database carregada: {len(db_map)} animes encontrados.")
+            except json.JSONDecodeError:
+                print("🆕 Database corrompida ou vazia. Iniciando do zero.")
+        else:
+            print("🆕 Criando nova base de dados.")
+
+        # Filtra quais links precisam de processamento
+        links_to_process = []
+        for l in links:
+            slug = l.split("/")[-1].replace("-todos-os-episodios", "")
+            
+            # Condição: Anime novo OU anime que ainda está saindo episódios
+            if slug not in db_map:
+                links_to_process.append(l)
+            elif db_map[slug].get("status") == "Em lançamento":
+                links_to_process.append(l)
+
+        if not links_to_process:
+            print("✅ O banco de dados já está totalmente atualizado.")
+            return
+
+        print(f"🚀 Iniciando extração de {len(links_to_process)} animes (Novos/Lançamentos)...")
+
+        # Processamento em lotes (batch) para não sobrecarregar
         batch_size = 10 
         for i in range(0, len(links_to_process), batch_size):
             batch = links_to_process[i : i + batch_size]
             tasks = [self.scrape_full_anime(link) for link in batch]
             results = await asyncio.gather(*tasks)
             
-            valid_results = [asdict(r) for r in results if r]
-            all_data.extend(valid_results)
+            for r in results:
+                if r:
+                    # Sobrescreve ou adiciona no mapa (mantém sempre a versão mais nova)
+                    db_map[r.slug] = asdict(r)
             
-            with open("animes_full_db.json", "w", encoding="utf-8") as f:
-                json.dump(all_data, f, indent=4, ensure_ascii=False)
+            # Salva o progresso a cada lote
+            with open(db_path, "w", encoding="utf-8") as f:
+                json.dump(list(db_map.values()), f, indent=4, ensure_ascii=False)
             
-            print(f"⏳ Salvo: {len(all_data)} / {total_sitemap} animes totais.")
-
-# Nota: O bloco "if __name__ == '__main__':" foi removido daqui porque 
-# quem controla a execução agora é o workflow.py
+            print(f"⏳ Progresso: {len(db_map)} / {len(links)} animes processados.")
