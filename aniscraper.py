@@ -34,7 +34,7 @@ class AnimeData:
 class AnimeFireAPI:
     def __init__(self):
         self.base_url = "https://animefire.io"
-        self.scraperant_key = "SUA_API_KEY_AQUI" # COLOQUE SUA CHAVE AQUI
+        self.scraperant_key = "75d0bdb8eb7e4c7e86497459c678f4ea" # COLOQUE SUA CHAVE AQUI
         self.session = AsyncSession(impersonate="chrome120")
         self.semaphore = asyncio.Semaphore(10) 
 
