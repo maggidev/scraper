@@ -5,6 +5,7 @@ import os
 from dataclasses import dataclass, field, asdict
 from typing import List, Optional
 from curl_cffi.requests import AsyncSession
+from bs4 import BeautifulSoup
 
 @dataclass
 class Video:
@@ -33,32 +34,45 @@ class AnimeData:
 class AnimeFireAPI:
     def __init__(self):
         self.base_url = "https://animefire.io"
-        # Usamos impersonate mas vamos forçar a versão 120 que é estável no curl_cffi
+        self.scraperant_key = "SUA_API_KEY_AQUI" # COLOQUE SUA CHAVE AQUI
         self.session = AsyncSession(impersonate="chrome120")
+        self.semaphore = asyncio.Semaphore(10) 
+
+    async def _get_with_bypass(self, target_url: str):
+        """Usa ScraperAnt para URLs protegidas ou conexão direta para o resto."""
+        # Se for a lista completa ou sitemap, usamos bypass obrigatoriamente
+        if "sitemap" in target_url or "lista-de-animes" in target_url:
+            print(f"🛡️ Usando Bypass ScraperAnt para: {target_url}")
+            proxy_url = f"https://api.scraperant.com/v2/general?url={target_url}&x-api-key={self.scraperant_key}&browser=true"
+            return await self.session.get(proxy_url, timeout=60)
         
-        # DEFINA SEUS HEADERS REAIS (Copiados do seu fetch)
-        self.session.headers.update({
-            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-            "accept-language": "pt",
-            "cache-control": "max-age=0",
-            "priority": "u=0, i",
-            "sec-ch-ua": '"Google Chrome";v="120", "Chromium";v="120", "Not A(Brand";v="24"',
-            "sec-ch-ua-mobile": "?0",
-            "sec-ch-ua-platform": '"Linux"',
-            "sec-fetch-dest": "document",
-            "sec-fetch-mode": "navigate",
-            "sec-fetch-site": "none",
-            "sec-fetch-user": "?1",
-            "upgrade-insecure-requests": "1"
-        })
-        
-        # INJEÇÃO DE COOKIE: Substitua pelo valor do sid que você pegou
-        # Nota: Cookies de sessão expiram. Se parar de funcionar, você precisará de um novo 'sid'.
-        self.session.cookies.update({
-            "sid": "HdnzGkbBbm67SkfOwEUtPbduzpWSwwLQrnsPc0wuFNOABs0HEomBBZZ9XeA-7DR0"
-        })
-        
-        self.semaphore = asyncio.Semaphore(20)
+        # Para episódios individuais, tentamos direto primeiro (economiza créditos)
+        return await self.session.get(target_url, timeout=20)
+
+    async def get_all_links_intelligently(self, db_exists: bool) -> List[str]:
+        """
+        Se DB existe: Pega só a Home (Lançamentos recentes).
+        Se DB não existe: Pega o Sitemap (Carga inicial).
+        """
+        if db_exists:
+            print("fast-forward ⏩ DB encontrada. Verificando apenas novidades na Home...")
+            target = self.base_url
+        else:
+            print("Full-scan 🌎 DB vazia. Acessando Sitemap completo (isso pode demorar)...")
+            target = f"{self.base_url}/sitemap.xml"
+
+        try:
+            resp = await self._get_with_bypass(target)
+            if resp.status_code == 200:
+                # Regex captura slugs de animes
+                links = re.findall(r'https?://animefire\.io/animes/[a-z0-9-]+', resp.text)
+                if links:
+                    final = [f"{l}-todos-os-episodios" if "-todos-os-episodios" not in l else l for l in links]
+                    return sorted(list(set(final)))
+            print(f"⚠️ Falha ao obter links: Status {resp.status_code}")
+        except Exception as e:
+            print(f"❌ Erro no fetch inteligente: {e}")
+        return []
 
     def _get_info_text(self, soup, label):
         for info in soup.select(".animeInfo"):
@@ -159,36 +173,46 @@ class AnimeFireAPI:
                 return None
 
     async def run_automation(self):
-        links = await self.get_all_links_from_sitemap()
+        db_path = "animes_full_db.json"
+        db_exists = os.path.exists(db_path) and os.path.getsize(db_path) > 10
+        
+        # 1. Busca links de forma inteligente
+        links = await self.get_all_links_intelligently(db_exists)
+        
         if not links:
-            print("🛑 Falha crítica. O GitHub Actions está sendo bloqueado pela Cloudflare.")
+            print("🛑 Nenhum link novo para processar.")
             return
 
-        db_path = "animes_full_db.json"
         db_map = {}
+        if db_exists:
+            with open(db_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                db_map = {a['slug']: a for a in data}
 
-        if os.path.exists(db_path):
-            try:
-                with open(db_path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    db_map = {a['slug']: a for a in data}
-            except:
-                pass
-
-        links_to_process = [l for l in links if l.split("/")[-1].replace("-todos-os-episodios", "") not in db_map or db_map[l.split("/")[-1].replace("-todos-os-episodios", "")].get("status") == "Em lançamento"]
+        # 2. Filtra o que realmente precisa de scrap
+        # Processa se: Não estiver na DB OU se o status for "Em lançamento"
+        links_to_process = [
+            l for l in links 
+            if l.split("/")[-1].replace("-todos-os-episodios", "") not in db_map 
+            or db_map[l.split("/")[-1].replace("-todos-os-episodios", "")].get("status") == "Em lançamento"
+        ]
 
         if not links_to_process:
-            print("✅ DB Atualizada.")
+            print("✅ Nada novo sob o sol. Tudo atualizado.")
             return
 
-        print(f"🚀 Processando {len(links_to_process)} itens...")
-        batch_size = 10
+        print(f"🚀 Processando {len(links_to_process)} animes...")
+        batch_size = 5
         for i in range(0, len(links_to_process), batch_size):
             batch = links_to_process[i:i+batch_size]
             results = await asyncio.gather(*[self.scrape_full_anime(l) for l in batch])
+            
             for r in results:
                 if r: db_map[r.slug] = asdict(r)
             
+            # Salva parcial para não perder progresso
             with open(db_path, "w", encoding="utf-8") as f:
                 json.dump(list(db_map.values()), f, indent=4, ensure_ascii=False)
-            print(f"⏳ Salvo: {len(db_map)} animes.")
+            
+            print(f"⏳ Progresso: {len(db_map)} animes no total.")
+            await asyncio.sleep(1)
