@@ -1,15 +1,10 @@
 import asyncio
 import json
 import re
-import warnings
 import os
 from dataclasses import dataclass, field, asdict
 from typing import List, Optional
 from curl_cffi.requests import AsyncSession
-from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
-
-# Silencia avisos de parser
-warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 @dataclass
 class Video:
@@ -38,39 +33,11 @@ class AnimeData:
 class AnimeFireAPI:
     def __init__(self):
         self.base_url = "https://animefire.io"
-        self.session = AsyncSession(impersonate="chrome110")
-        self.session.headers.update({"Referer": self.base_url})
-        self.semaphore = asyncio.Semaphore(15) 
+        # Impersonate Chrome 120 (mais recente) para bater com os headers
+        self.session = AsyncSession(impersonate="chrome120")
+        self.semaphore = asyncio.Semaphore(3) # Reduzido drasticamente: Velocidade alta = Bloqueio Cloudflare
 
-    async def get_valid_proxy(self):
-        print("🔍 Buscando lista de proxies brasileiros...")
-        # URL atualizada para pegar apenas proxies HTTPS/Elite
-        url_proxies = "https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&country=br&proxy_format=ipport&http_support=true"
-        
-        try:
-            resp = await self.session.get(url_proxies, timeout=15)
-            proxy_list = resp.text.splitlines()
-            print(f"✅ {len(proxy_list)} proxies encontrados. Testando no alvo...")
-
-            for proxy in proxy_list:
-                proxy_url = f"http://{proxy}"
-                try:
-                    # TESTE REAL: Só aceita se abrir o AnimeFire, não o Google
-                    test_resp = await self.session.get(
-                        f"{self.base_url}/lista-de-animes", 
-                        proxies={"http": proxy_url, "https": proxy_url},
-                        timeout=8 # Aumentado para proxies lentos
-                    )
-                    # Se retornou 200 e tem conteúdo, o proxy é elite!
-                    if test_resp.status_code == 200 and "anime" in test_resp.text.lower():
-                        print(f"🚀 Proxy ELITE encontrado: {proxy}")
-                        return proxy_url
-                except:
-                    continue
-            return None
-        except Exception as e:
-            print(f"❌ Erro ao obter lista: {e}")
-            return None
+ 
 
     def _get_info_text(self, soup, label):
         for info in soup.select(".animeInfo"):
@@ -84,30 +51,57 @@ class AnimeFireAPI:
         return slug.replace("-dublado", "")
 
     async def get_all_links_from_sitemap(self) -> List[str]:
-        """Busca links usando um Regex mais flexível para evitar 'Links: 0'."""
-        print("📥 Acessando fonte de links...")
+        print("📥 Acessando lista de animes via Bypass...")
+        
+        # Headers que mimetizam um navegador real acessando o site pela primeira vez
+        headers = {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+            "referer": "https://www.google.com/", # Simula que você veio do Google
+            "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": '"Windows"',
+            "sec-fetch-dest": "document",
+            "sec-fetch-mode": "navigate",
+            "sec-fetch-site": "cross-site",
+            "sec-fetch-user": "?1",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+
+        # Primeiro, "visita" a home para ganhar um cookie de sessão
         try:
-            # Tenta primeiro o sitemap, se falhar tenta a lista
-            for path in ["/sitemap.xml", "/lista-de-animes"]:
-                resp = await self.session.get(f"{self.base_url}{path}", timeout=30)
-                if resp.status_code == 200:
-                    # Regex ULTRA FLEXÍVEL: Pega qualquer link que contenha /animes/ e tenha o slug
-                    # Funciona tanto em XML quanto em HTML
-                    links_encontrados = re.findall(r'https?://animefire\.io/animes/[a-z0-9-]+', resp.text)
-                    
-                    if links_encontrados:
-                        # Formata e remove duplicatas
-                        links = [f"{l}-todos-os-episodios" if "-todos-os-episodios" not in l else l for l in links_encontrados]
-                        links = sorted(list(set(links)))
-                        print(f"🔗 Sucesso via {path}! Links encontrados: {len(links)}")
-                        return links
+            print("🍪 Pegando cookies de sessão...")
+            await self.session.get(self.base_url, headers=headers, timeout=20)
+            await asyncio.sleep(2) # Pausa dramática para parecer humano
+        except: pass
+
+        # Agora tenta a lista de animes
+        url_lista = f"{self.base_url}/lista-de-animes"
+        try:
+            resp = await self.session.get(url_lista, headers=headers, timeout=30)
+            print(f"📡 Resposta da lista: {resp.status_code}")
             
-            # Se chegou aqui, o proxy entregou uma página vazia (bloqueio de JS ou WAF)
-            print("⚠️ Página entregue sem links. O proxy pode estar sendo filtrado.")
-            return []
+            # Se a Cloudflare bloquear com 403, tentamos o sitemap como fallback
+            if resp.status_code != 200:
+                print("⚠️ Bloqueado na lista. Tentando Sitemap...")
+                resp = await self.session.get(f"{self.base_url}/sitemap.xml", headers=headers, timeout=30)
+
+            links_encontrados = re.findall(r'https?://animefire\.io/animes/[a-z0-9-]+', resp.text)
+            
+            if links_encontrados:
+                links = [f"{l}-todos-os-episodios" if "-todos-os-episodios" not in l else l for l in links_encontrados]
+                links = sorted(list(set(links)))
+                print(f"🔗 Sucesso! {len(links)} links encontrados.")
+                return links
+            else:
+                print("❌ Nenhum link encontrado. Cloudflare deve ter entregue um desafio de JS.")
+                # Debug: salva o que recebeu para você ver no log do GitHub
+                with open("debug_resp.html", "w") as f: f.write(resp.text[:2000])
         except Exception as e:
-            print(f"❌ Erro na extração: {e}")
-            return []
+            print(f"❌ Erro na conexão: {e}")
+        
+        return []
 
     async def get_video_links(self, ep_name: str, ep_url: str, anime_slug: str) -> Episode:
         async with self.semaphore:
@@ -171,17 +165,9 @@ class AnimeFireAPI:
                 return None
 
     async def run_automation(self):
-        # 1. Tenta proxy
-        valid_proxy = await self.get_valid_proxy()
-        if valid_proxy:
-            self.session.proxies = {"http": valid_proxy, "https": valid_proxy}
-            print("🛡️ Proxy ativado.")
-
-        # 2. Busca links
         links = await self.get_all_links_from_sitemap()
-        
         if not links:
-            print("🛑 Falha ao obter links. Abortando.")
+            print("🛑 Falha crítica. O GitHub Actions está sendo bloqueado pela Cloudflare.")
             return
 
         db_path = "animes_full_db.json"
