@@ -1,49 +1,18 @@
-name: Update Anime Database
+name: Hugging Face Keep Alive
 
 on:
   schedule:
-    # 07:00 UTC é 04:00 AM Horário de Brasília
-    - cron: '0 7 * * *'
-  workflow_dispatch: 
-
-permissions:
-  contents: write # Essencial para permitir o Git Push
+    # Roda a cada 40 minutos (Hugging Face costuma entrar em sleep após 48h, 
+    # mas pings frequentes garantem que ele não saia do cache)
+    - cron: '*/40 * * * *'
+  workflow_dispatch: # Permite que você rode manualmente para testar
 
 jobs:
-  build:
+  ping:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout do código
-        uses: actions/checkout@v4 # Atualizado para v4
-
-      - name: Configurar Python
-        uses: actions/setup-python@v5 # Atualizado para v5
-        with:
-          python-version: '3.10'
-
-      - name: Instalar dependências
+      - name: Ping Hugging Face Space
         run: |
-          pip install requests curl_cffi beautifulsoup4 lxml
-
-      - name: Executar Workflow de Scraping
-        env:
-          # Adicione sua chave nos Secrets do Repositório com este nome
-          SCRAPERANT_API_KEY: ${{ secrets.SCRAPERANT_API_KEY }}
-        run: python workflow.py
-
-      - name: Commit e Push das atualizações
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          
-          # Adiciona todos os arquivos gerados/modificados
-          git add api_data/*.json animes_full_db.json animes_limpos.json
-          
-          # Lógica inteligente: só commita se houver mudanças reais
-          if git diff --staged --quiet; then
-            echo "Nenhuma mudança detectada na database."
-          else
-            git commit -m "Auto Update: $(date +'%Y-%m-%d %H:%M')"
-            git push
-          fi
+          # Substitua pela URL direta do seu VS Code Web no Spaces
+          curl -I -s https://maggidev-code.hf.space/ > /dev/null
+          echo "Ping enviado com sucesso em $(date)"
