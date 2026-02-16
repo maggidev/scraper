@@ -14,5 +14,5 @@ jobs:
       - name: Ping Hugging Face Space
         run: |
           # Substitua pela URL direta do seu VS Code Web no Spaces
-          curl -I -s https://maggidev-code.hf.space/ > /dev/null
+          curl -I -s https://maggidev-vsx.hf.space/?folder=/workspace > /dev/null
           echo "Ping enviado com sucesso em $(date)"
