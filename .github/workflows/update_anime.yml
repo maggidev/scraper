@@ -1,18 +1,25 @@
-name: Hugging Face Keep Alive
+name: BrX Keep Alive Engine
 
 on:
   schedule:
-    # Roda a cada 40 minutos (Hugging Face costuma entrar em sleep após 48h, 
-    # mas pings frequentes garantem que ele não saia do cache)
-    - cron: '*/40 * * * *'
-  workflow_dispatch: # Permite que você rode manualmente para testar
+    # Roda a cada 13 minutos para evitar o sleep do Render (15min limit)
+    - cron: '*/13 * * * *'
+  workflow_dispatch: # Permite rodar manualmente no painel do GitHub
 
 jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping Hugging Face Space
+      - name: Ping Services
         run: |
-          # Substitua pela URL direta do seu VS Code Web no Spaces
-          curl -I -s https://maggidev-vscodevpsmax.hf.space/?folder=/root/.local/codeserver-data/workspace > /dev/null
-          echo "Ping enviado com sucesso em $(date)"
+          echo "Iniciando pings de manutenção..."
+          
+          # 1. Ping Hugging Face Space (VS Code VPS)
+          curl -I -L -s https://maggidev-vscodevpsmax.hf.space/?folder=/root/.local/codeserver-data/workspace > /dev/null
+          echo "Hugging Face: OK"
+
+          # 2. Ping Render API (BrX Sports Backend)
+          curl -I -L -s https://fut-m8xk.onrender.com/ > /dev/null
+          echo "Render API: OK"
+          
+          echo "Todos os pings enviados em $(date)"
